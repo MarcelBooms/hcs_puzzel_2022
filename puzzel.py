@@ -167,59 +167,83 @@ def aanvullen():
   for n in range(veldgrootte):
     print_tabel()
     print("Regel ",n)
-    for m in range(len(gx[n])-1):
-      vorig_eind=gx[n][m-1]['eind'] if m>0 else 0
-      if m < len(gx[n])-1:
-        volgend_begin=gx[n][m+1]['begin']
-      else:
-        gx[n][m]['eind']+1
-      ruimte = gx[n][m]['eind'] - gx[n][m]['begin'] + 1 - gx[n][m]['getal']
-      print("begin", gx[n][m]['begin'],"eind", gx[n][m]['eind'],"getal",gx[n][m]['getal'] )
-      # controle op precies aantal
-      print('controle')
-      print("gx[n][m]['begin'] >= vorig_eind and ruimte>0   ", gx[n][m]['begin'],">=",vorig_eind," ruimte=",ruimte)
-      if ruimte == 0:
-        for o in range(gx[n][m]['begin'], gx[n][m]['begin']+ gx[n][m]['getal']-1):
+    for m in gx[n]:
+      if tabel[n][m['begin']] == 'Y' and (m['begin'] == 0  or tabel[n][m['begin']-1] == 'x'):
+        for o in range(m['begin'], m['begin']+ m['getal']-1):
           if tabel[n][o]==".":
             tabel[n][o]="Y"
             aangepast=True
-        if gx[n][m]['begin']+ gx[n][m]['getal'] < veldgrootte:
-          tabel[n][gx[n][m]['begin']+ gx[n][m]['getal']]='x'
-      # controle op begin + x ervoor
-      elif gx[n][m]['begin'] >= vorig_eind and ruimte>0:
-        print("aan het begin")
-        for o in range(gx[n][m]['begin'],gx[n][m]['begin']+ruimte):
-          if tabel[n][o] == 'x':
-            gx[m]['begin']=o
-      # controle op eind + x erachter
-      elif gx[n][m]['eind'] <= volgend_begin and ruimte>0:
-          for o in range(gx[m]['eind'],gx[m]['eind']-ruimte,-1):
-            if tabel[n][o] == 'x':
-              gx[n][m]['eind']=o
-
-    for m in range(len(gy[n])-1):
-      vorig_eind=gy[n][m-1]['eind'] if m>0 else 0
-      if m < len(gy[n])-1:
-        volgend_begin=gy[n][m+1]['begin']
-      else:
-        gy[n][m]['eind']+1
-      ruimte = gy[n][m]['eind'] - gy[n][m]['begin'] + 1 - gy[n][m]['getal']
-      # controle op precies aantal
-      if ruimte == 0:
-        for o in range(gy[n][m]['begin'], gy[n][m]['begin']+ gy[n][m]['getal']-1):
+          m['eind']=m['begin']+ m['getal']-1
+        if m['begin']+ m['getal'] < veldgrootte:
+          tabel[n][m['begin']+ m['getal']]='x'
+    for m in gy[n]:
+      if tabel[m][n['begin']] == 'Y' and (m['begin'] == 0  or tabel[m][n['begin']-1] == 'x'):
+        for o in range(m['begin'], m['begin']+ m['getal']-1):
           if tabel[o][n]==".":
             tabel[o][n]="Y"
             aangepast=True
-      # controle op begin + x ervoor
-      elif gy[n][m]['begin'] >= vorig_eind and ruimte>0:
-         for o in range(gy[n][m]['begin'],gy[n][m]['begin']+ruimte):
-           if tabel[o][n] == 'x':
-             gy[n][m]['begin']=o
-      # controle op eind + x erachter
-      elif gy[n][m]['eind'] <= volgend_begin and ruimte>0:
-         for o in range(gy[m]['eind'],gy[m]['eind']-ruimte,-1):
-           if tabel[o][n] == 'x':
-             gy[n][m]['eind']=o
+          m['eind']=m['begin']+ m['getal']-1
+        if m['begin']+ m['getal'] < veldgrootte:
+          tabel[m['begin']+ m['getal']][n]='x'
+
+
+
+
+    
+            
+    # for m in range(len(gx[n])-1):
+    #   vorig_eind=gx[n][m-1]['eind'] if m>0 else 0
+    #   if m < len(gx[n])-1:
+    #     volgend_begin=gx[n][m+1]['begin']
+    #   else:
+    #     gx[n][m]['eind']+1
+    #   ruimte = gx[n][m]['eind'] - gx[n][m]['begin'] + 1 - gx[n][m]['getal']
+    #   print("begin", gx[n][m]['begin'],"eind", gx[n][m]['eind'],"getal",gx[n][m]['getal'] )
+    #   # controle op precies aantal
+    #   print('controle')
+    #   print("gx[n][m]['begin'] >= vorig_eind and ruimte>0   ", gx[n][m]['begin'],">=",vorig_eind," ruimte=",ruimte)
+    #   if ruimte == 0:
+    #     for o in range(gx[n][m]['begin'], gx[n][m]['begin']+ gx[n][m]['getal']-1):
+    #       if tabel[n][o]==".":
+    #         tabel[n][o]="Y"
+    #         aangepast=True
+    #     if gx[n][m]['begin']+ gx[n][m]['getal'] < veldgrootte:
+    #       tabel[n][gx[n][m]['begin']+ gx[n][m]['getal']]='x'
+    #   # controle op begin + x ervoor
+    #   elif gx[n][m]['begin'] >= vorig_eind and ruimte>0:
+    #     print("aan het begin")
+    #     for o in range(gx[n][m]['begin'],gx[n][m]['begin']+ruimte):
+    #       if tabel[n][o] == 'x':
+    #         gx[m]['begin']=o
+    #   # controle op eind + x erachter
+    #   elif gx[n][m]['eind'] <= volgend_begin and ruimte>0:
+    #       for o in range(gx[m]['eind'],gx[m]['eind']-ruimte,-1):
+    #         if tabel[n][o] == 'x':
+    #           gx[n][m]['eind']=o
+
+    # for m in range(len(gy[n])-1):
+    #   vorig_eind=gy[n][m-1]['eind'] if m>0 else 0
+    #   if m < len(gy[n])-1:
+    #     volgend_begin=gy[n][m+1]['begin']
+    #   else:
+    #     gy[n][m]['eind']+1
+    #   ruimte = gy[n][m]['eind'] - gy[n][m]['begin'] + 1 - gy[n][m]['getal']
+    #   # controle op precies aantal
+    #   if ruimte == 0:
+    #     for o in range(gy[n][m]['begin'], gy[n][m]['begin']+ gy[n][m]['getal']-1):
+    #       if tabel[o][n]==".":
+    #         tabel[o][n]="Y"
+    #         aangepast=True
+    #   # controle op begin + x ervoor
+    #   elif gy[n][m]['begin'] >= vorig_eind and ruimte>0:
+    #      for o in range(gy[n][m]['begin'],gy[n][m]['begin']+ruimte):
+    #        if tabel[o][n] == 'x':
+    #          gy[n][m]['begin']=o
+    #   # controle op eind + x erachter
+    #   elif gy[n][m]['eind'] <= volgend_begin and ruimte>0:
+    #      for o in range(gy[m]['eind'],gy[m]['eind']-ruimte,-1):
+    #        if tabel[o][n] == 'x':
+    #          gy[n][m]['eind']=o
       
       
       
