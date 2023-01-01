@@ -1,9 +1,15 @@
 veldgrootte=30
 maxaantalgetallen=15
+
+vulblokje='Y'
+kruisje="."
+leegveld="_"
   
-tabel=[['.' for n in range(veldgrootte)] for n in range(veldgrootte)]
+tabel=[[leegveld for n in range(veldgrootte)] for n in range(veldgrootte)]
 gx=[[] for n in range(veldgrootte)]
 gy=[[] for n in range(veldgrootte)]
+
+
 
 def lees_rij():
   # Makkelijke manier om alle rijen uit te lezen
@@ -73,30 +79,46 @@ def print_tabel():
     rij += 1
     rij1=False
 
+def print_tabel2():
+  # print de tabel
+  n=0
+  for regel in tabel:
+    cijfers=''
+    for cijfer in gx[n]:
+      if cijfer['getal']:
+        cijfers += str(cijfer['getal']) + ' '
+      elif not cijfers:
+        cijfers='0'    
+    print(' '.join(regel)," ",cijfers)
+    print(gx[n])
+    n+=1
+
 def check_volledige_rij_kolom():
   # Check elke rij & kolom waarvan de vrijheid van de te plaatsen
   # blokjes/kruisjes 0 is. 
   global tabel,gx,gy
   aangepast=False
+  print("== check_volledige_rij_kolom ==")
+  print_tabel()
   for y in range(veldgrootte):
     kruizen=0
     for x in range(veldgrootte):
-      kruizen+=1 if tabel[y][x]=='x' else 0
+      kruizen+=1 if tabel[y][x]==kruisje else 0
     totaal=0
     for n in gx[y]:
       totaal+=n['getal']
     totaal+=len(gx[y])-1 # Voeg verplichte lege vakjes toe.
     if kruizen + totaal == veldgrootte or totaal == 0:
-      print("Rij " + str(y) + " kan volledig gevuld worden")
+      # print("Rij " + str(y) + " kan volledig gevuld worden")
       if vul_rij_kolom('r',y):
         aangepast=True
-    else:
-      print("Rij " + str(y) + " heeft " + str(kruizen) + " kruizen en " + str(totaal) + " blokjes. veldgrootte = " + str(veldgrootte))
+    # else:
+      # print("Rij " + str(y) + " heeft " + str(kruizen) + " kruizen en " + str(totaal) + " blokjes. veldgrootte = " + str(veldgrootte))
       
   for x in range(veldgrootte):
     kruizen=0
     for y in range(veldgrootte):
-      kruizen+=1 if tabel[y][x]=='x' else 0
+      kruizen+=1 if tabel[y][x]==kruisje else 0
     totaal=0
     for n in gy[x]:
       totaal+=n['getal']
@@ -105,8 +127,9 @@ def check_volledige_rij_kolom():
       print("Kolom " + str(x) + " kan volledig gevuld worden")
       if vul_rij_kolom('k',x):
         aangepast = True
-    else:
-      print("Kolom " + str(x) + " heeft " + str(kruizen) + " kruizen en " + str(totaal) + " blokjes. veldgrootte = " + str(veldgrootte))
+    # else:
+      # print("Kolom " + str(x) + " heeft " + str(kruizen) + " kruizen en " + str(totaal) + " blokjes. veldgrootte = " + str(veldgrootte))
+  print_tabel()
   return aangepast
 
 def vul_rij_kolom(richting,pos):
@@ -114,156 +137,149 @@ def vul_rij_kolom(richting,pos):
   aangepast=False
   o=0
   totaal=0
+  print(gx[pos])
+  print_tabel()
   if richting == 'r':
     for n in gx[pos]:
       totaal+=n['getal']
     for n in range(veldgrootte):
-      if tabel[pos][n] == '.':
+      if tabel[pos][n] == leegveld:
         if o<len(gx[pos]):
-          for m in range(gx[pos][o]['getal']):
-            tabel[pos][n+m]="Y"
+          for m in range(gx[pos][o]['getal']-1):
+            print(tabel[pos])
+            print(gx[pos])
+            print(pos,n,m,n+m)
+            tabel[pos][n+m]=vulblokje
             aangepast=True
           n += gx[pos][o]['getal']
           o += 1
-        if n < veldgrootte and tabel[pos][n]=='.':
-          tabel[pos][n]='x'
+        if n < veldgrootte and tabel[pos][n]==leegveld:
+          tabel[pos][n]=kruisje
           aangepast=True
   else:
     for n in gy[pos]:
       totaal+=n['getal']
     for n in range(veldgrootte):
-      if tabel[n][pos] == '.':
+      if tabel[n][pos] == leegveld:
         if o < len(gy[pos]):
-          for m in range(gy[pos][o]['getal']):
-            tabel[n+m][pos]="Y"
+          for m in range(gy[pos][o]['getal']-1):
+            tabel[n+m][pos]=vulblokje
             aangepast=True
           n += gy[pos][o]['getal']
           o += 1
-        if n < veldgrootte and tabel[n][pos]=='.':
-          tabel[n][pos]='x'
+        if n < veldgrootte and tabel[n][pos]==leegveld:
+          tabel[n][pos]=kruisje
           aangepast=True
   return aangepast
 
 def vul_blokjes_in():
   # Check iedere rij/kolom op velden die zowieso een blokje zijn.
   # Een rij blokjes van 7 en een vrijheid van 1 heeft zowieso 5 blokjes
+  print("== vul blokjes ==")
+  print_tabel()
   aangepast=False
   for n in range(veldgrootte):
     for m in gx[n]:
-      if m['begin'] + m['getal'] > m['eind'] - m['getal']:
-        speling=m['eind']-m['begin']-m['getal']
-        for o in range(m['begin']+speling, m['eind']-speling):
-          tabel[n][o]="Y"
-          aangepast=True
+      speling=m['eind']-m['begin']-m['getal'] +1
+      # print("begin",m['begin'],"eind",m['eind'],"getal",m['getal'],"speling",speling,"b+s",m['begin'] + speling)
+      # print(n,"begin + speling < eind ", m['begin'] + speling,m['eind'],m)
+      if m['getal'] > 0 and m['begin'] + m['getal'] >= m['eind'] - m['getal'] + 1:
+        print(n,m)
+        for o in range(m['begin'] +speling, m['eind']-m['getal'],-1):          
+          # print("begin",m['begin'],"eind",m['eind'],"getal",m['getal'],"speling",speling)
+          if tabel[n][o] == leegveld:            
+            tabel[n][o]=vulblokje
+            aangepast=True
     for m in gy[n]:
-      if m['begin'] + m['getal'] > m['eind'] - m['getal']:
-        speling=m['eind']-m['begin']-m['getal']
-        for o in range(m['begin']+speling, m['eind']-speling):
-          tabel[o][n]="Y"
-          aangepast=True
+      speling=m['eind']-m['begin']-m['getal'] +1
+      if m['getal'] > 0 and m['begin'] + m['getal'] >= m['eind'] - m['getal'] + 1:
+        for o in range(m['begin'] +speling, m['eind']-m['getal'],-1):
+          # print("begin",m['begin'],"eind",m['eind'],"getal",m['getal'],"speling",speling)
+          if tabel[n][o] == leegveld:
+            tabel[o][n]=vulblokje
+            aangepast=True
+  print_tabel()
   return aangepast
 
 def aanvullen():
+  print("== aanvullen ==")
+  aangepast=False
   for n in range(veldgrootte):
-    print_tabel()
-    print("Regel ",n)
+    # print("aanvullen1",n)
+    # print_tabel()
     for m in gx[n]:
-      if tabel[n][m['begin']] == 'Y' and (m['begin'] == 0  or tabel[n][m['begin']-1] == 'x'):
-        for o in range(m['begin'], m['begin']+ m['getal']-1):
-          if tabel[n][o]==".":
-            tabel[n][o]="Y"
+      #Als het eerste veld bekend gevuld is dan kan de rest aangevuld worden
+      print("horizontaal begin->eind ",n,m,' '.join(tabel[n]))
+      if tabel[n][m['begin']] == kruisje and m['begin'] < m['eind']:
+         m['begin'] += 1
+      if tabel[n][m['eind']] == kruisje and m['eind'] > m['begin']:
+         m['eind'] -= 1
+      if tabel[n][m['begin']] == vulblokje and (m['begin'] == 0  or tabel[n][m['begin']-1] == kruisje):
+        for o in range(m['begin'], m['begin'] + m['getal']-1):
+          # print(n,o,tabel[n][o])
+          if tabel[n][o]==leegveld:
+            tabel[n][o]=vulblokje
             aangepast=True
-          m['eind']=m['begin']+ m['getal']-1
-        if m['begin']+ m['getal'] < veldgrootte:
-          tabel[n][m['begin']+ m['getal']]='x'
+        m['eind']=m['begin'] + m['getal'] - 1
+        if m['begin'] + m['getal'] < veldgrootte:
+          tabel[n][m['begin'] + m['getal']]=kruisje
+      #Als het laatste veld bekend is en geen onderdeel is van het volgende getal
+      # print("horizontaal eind->begin ",n,m,' '.join(tabel[n]))
+      if tabel[n][m['eind']] == vulblokje and (m['eind'] == veldgrootte-1 or tabel[n][m['eind'] +1] == kruisje):
+        # print("o gaat van ",m['eind'] - m['getal']+1,"naar",m['eind'])
+        for o in range(m['eind'] - m['getal']+1, m['eind']):
+          # print(n,o,tabel[n][o])
+          if tabel[n][o]==leegveld:
+            tabel[n][o]=vulblokje
+            aangepast=True
+          m['begin']=m['eind'] - m['getal'] + 1
+        if m['eind'] - m['getal'] > 0:
+          tabel[n][m['eind'] - m['getal']]=kruisje
+    # print("aanvullen2",n)
+    # print_tabel()
     for m in gy[n]:
-      if tabel[m][n['begin']] == 'Y' and (m['begin'] == 0  or tabel[m][n['begin']-1] == 'x'):
-        for o in range(m['begin'], m['begin']+ m['getal']-1):
-          if tabel[o][n]==".":
-            tabel[o][n]="Y"
+      #Als het eerste veld bekend gevuld is dan kan de rest aangevuld worden
+      if n == 3:
+        print(n,m,"VERTIKAAL")
+        print_tabel()       
+      if tabel[m['begin']][n] == kruisje and m['begin'] < m['eind']:
+         m['begin'] += 1
+      if tabel[m['eind']][n] == kruisje and m['eind'] > m['begin']:
+         m['eind'] -= 1
+      if tabel[m['begin']][n] == vulblokje and (m['begin'] == 0  or tabel[m['begin']-1][n] == kruisje):
+        for o in range(m['begin'], m['begin'] + m['getal']-1):
+          if n == 3:
+            print(n,o,tabel[n][o])
+          if tabel[o][n]==leegveld:
+            tabel[o][n]=vulblokje
             aangepast=True
-          m['eind']=m['begin']+ m['getal']-1
-        if m['begin']+ m['getal'] < veldgrootte:
-          tabel[m['begin']+ m['getal']][n]='x'
+          m['eind']=m['begin'] + m['getal'] 
+        if m['begin'] + m['getal'] < veldgrootte:
+          tabel[m['begin'] + m['getal']][n]=kruisje
+      if n == 3:
+        print('na eerste stap',gy[n])
+        print_tabel()
+      #Als het laatste veld bekend is en geen onderdeel is van het volgende getal
+      if tabel[n][m['eind']] == vulblokje and (m['eind'] == veldgrootte-1 or (tabel[n][m['eind'] +1] == kruisje and sss):
+        for o in range(m['eind'] - m['getal'] + 1, m['eind']):
+          print(n,o,tabel[n][o])
+          if tabel[o][n]==leegveld:
+            tabel[o][n]=vulblokje
+            aangepast=True
+          # print("!!! m['begin']=m['eind'] - m['getal']+1 =>",m['eind'] , m['getal'],1, m['eind'] - m['getal']+1 )
+          m['begin']=m['eind'] - m['getal'] + 1
+        if m['eind'] - m['getal'] > 0:
+          tabel[m['eind'] - m['getal']][n]=kruisje
+      print("einde aanvullen2",n)
+      print_tabel()
+  # print_tabel()
+  return aangepast
 
-
-
-
-    
-            
-    # for m in range(len(gx[n])-1):
-    #   vorig_eind=gx[n][m-1]['eind'] if m>0 else 0
-    #   if m < len(gx[n])-1:
-    #     volgend_begin=gx[n][m+1]['begin']
-    #   else:
-    #     gx[n][m]['eind']+1
-    #   ruimte = gx[n][m]['eind'] - gx[n][m]['begin'] + 1 - gx[n][m]['getal']
-    #   print("begin", gx[n][m]['begin'],"eind", gx[n][m]['eind'],"getal",gx[n][m]['getal'] )
-    #   # controle op precies aantal
-    #   print('controle')
-    #   print("gx[n][m]['begin'] >= vorig_eind and ruimte>0   ", gx[n][m]['begin'],">=",vorig_eind," ruimte=",ruimte)
-    #   if ruimte == 0:
-    #     for o in range(gx[n][m]['begin'], gx[n][m]['begin']+ gx[n][m]['getal']-1):
-    #       if tabel[n][o]==".":
-    #         tabel[n][o]="Y"
-    #         aangepast=True
-    #     if gx[n][m]['begin']+ gx[n][m]['getal'] < veldgrootte:
-    #       tabel[n][gx[n][m]['begin']+ gx[n][m]['getal']]='x'
-    #   # controle op begin + x ervoor
-    #   elif gx[n][m]['begin'] >= vorig_eind and ruimte>0:
-    #     print("aan het begin")
-    #     for o in range(gx[n][m]['begin'],gx[n][m]['begin']+ruimte):
-    #       if tabel[n][o] == 'x':
-    #         gx[m]['begin']=o
-    #   # controle op eind + x erachter
-    #   elif gx[n][m]['eind'] <= volgend_begin and ruimte>0:
-    #       for o in range(gx[m]['eind'],gx[m]['eind']-ruimte,-1):
-    #         if tabel[n][o] == 'x':
-    #           gx[n][m]['eind']=o
-
-    # for m in range(len(gy[n])-1):
-    #   vorig_eind=gy[n][m-1]['eind'] if m>0 else 0
-    #   if m < len(gy[n])-1:
-    #     volgend_begin=gy[n][m+1]['begin']
-    #   else:
-    #     gy[n][m]['eind']+1
-    #   ruimte = gy[n][m]['eind'] - gy[n][m]['begin'] + 1 - gy[n][m]['getal']
-    #   # controle op precies aantal
-    #   if ruimte == 0:
-    #     for o in range(gy[n][m]['begin'], gy[n][m]['begin']+ gy[n][m]['getal']-1):
-    #       if tabel[o][n]==".":
-    #         tabel[o][n]="Y"
-    #         aangepast=True
-    #   # controle op begin + x ervoor
-    #   elif gy[n][m]['begin'] >= vorig_eind and ruimte>0:
-    #      for o in range(gy[n][m]['begin'],gy[n][m]['begin']+ruimte):
-    #        if tabel[o][n] == 'x':
-    #          gy[n][m]['begin']=o
-    #   # controle op eind + x erachter
-    #   elif gy[n][m]['eind'] <= volgend_begin and ruimte>0:
-    #      for o in range(gy[m]['eind'],gy[m]['eind']-ruimte,-1):
-    #        if tabel[o][n] == 'x':
-    #          gy[n][m]['eind']=o
+# def controle_vrijheden():
+#   for n in range(veldgrootte):
+#     for m in gx[n]:
       
-      
-      
-    #   if tabel[n][gx[m]['begin']] == 'Y':
-    #     print("Rij vullen van ",m['begin'],"tot", m['begin']+ m['getal']-1)
-    #     for o in range(gx[m]['begin'], gx[m]['begin']+ gx[m]['getal']-1):
-    #       tabel[n][o]="Y"
-    #     tabel[n][gx[m]['begin']+ gx[m]['getal']]='x'
-    #     gx[m]['eind']=gx[m]['begin']+ gx[m]['getal']-1
-    #     aangepast=True
-    #   print("After m['begin']=",m['begin'],"m['eind']",m['eind'],"m['getal']",m['getal'])
-          
-    # for m in gy[n]:
-    #   if tabel[m['begin']][n] == 'Y':
-    #     for o in range(m['begin'], m['begin']+ m['getal']-1):
-    #       tabel[o][n]="Y"
-    #     tabel[m['begin']+ m['getal']][n]='x'
-    #     m['eind']=m['begin']+ m['getal']-1
-    #     aangepast=True
-        
+
         
 def los_puzzel_op():
   aangepast=check_volledige_rij_kolom()
@@ -272,12 +288,17 @@ def los_puzzel_op():
     print('Nog een keer')
     vul_blokjes_in()
     aanvullen()
+  aangepast = check_volledige_rij_kolom()
+  print('Nog een keer')
+  vul_blokjes_in()
+  aanvullen()
 
 def main():
   lees_rij()
   lees_kolom()
   los_puzzel_op()
   print_tabel()
+  print_tabel2()
   
   
 if __name__ == "__main__":
