@@ -215,18 +215,17 @@ def controleren():
     print("Run ",run)
     for n in range(veldgrootte):
       print("Rij " , n , " heeft ",len(tabel2_x[n]),"mogelijkheden")
-      if len(tabel2_x[n]) <= 1000:
-        print("Rij ",n," heeft ",len(tabel2_x[n])," oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel")
-        verwijderd = verwijder_kolommen(n)
-        kolommen.append(n)
+      print("Rij ",n," heeft ",len(tabel2_x[n])," oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel")
+      verwijderd = verwijder_kolommen(n)
+      kolommen.append(n)
   
     for n in range(veldgrootte):
       print("Kolom " , n , " heeft ",len(tabel2_y[n]),"mogelijkheden")    
       if len(tabel2_y[n]) <= 1000:
         # if not n in rijen:
-        print("Kolom ",n," heeft ",len(tabel2_y[n])," oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel")
-        verwijderd = verwijder_rijen(n)
-        rijen.append(n)
+      print("Kolom ",n," heeft ",len(tabel2_y[n])," oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel")
+      verwijderd = verwijder_rijen(n)
+      rijen.append(n)
 
 def vul_tabel():
   for rij_nr in range(veldgrootte):
