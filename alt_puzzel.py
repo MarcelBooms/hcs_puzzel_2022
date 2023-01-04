@@ -3,10 +3,9 @@ import timeit
 veldgrootte=30
 maxaantalgetallen=15
 
-vulblokje='Y'
+vulblokje=vulblokje
 kruisje="."
 leegveld="_"
-vraagteken="?"
   
 tabel=[[leegveld for n in range(veldgrootte)] for n in range(veldgrootte)]
 tabel2_x=[[] for n in range(veldgrootte)]
@@ -130,17 +129,17 @@ def verwijder_kolommen(rij_nr):
   tekst=list(tabel2_x[rij_nr][0])
   # print("Originele tekst: ",''.join(tekst))
   # Als de set meerderde oplossingen heeft dan wordt er gekeken welke posities
-  # dezelfde waarden hebben 'Y' of '.' voor alle oplossingen.
-  # Bij een verschil wordt het filter een vraagteken en genegeerd bij vergelijkingen.
+  # dezelfde waarden hebben vulblokje of '.' voor alle oplossingen.
+  # Bij een verschil wordt het filter een leegveld en genegeerd bij vergelijkingen.
   for n in range(len(tabel2_x[rij_nr])):
     for m in range(veldgrootte):
-      if tekst[m] != vraagteken and tekst[m] != tabel2_x[rij_nr][n][m]:
-        tekst[m]=vraagteken
+      if tekst[m] != leegveld and tekst[m] != tabel2_x[rij_nr][n][m]:
+        tekst[m]=leegveld
   # print("Nieuwe tekst   : ",''.join(tekst))
   return verwijder_kolom(tekst, rij_nr)
 
 def verwijder_kolom(filter, rij_nr):
-  if ''.join(filter) == vraagteken*veldgrootte:
+  if ''.join(filter) == leegveld*veldgrootte:
     return False
   verwijderd=False
   for n in range(veldgrootte):
@@ -148,7 +147,7 @@ def verwijder_kolom(filter, rij_nr):
     c=filter[n]
     nieuwe_tabel=[]
     for optie in range(len(tabel2_y[n])):
-      if tabel2_y[n][optie][rij_nr] == c or c == vraagteken:
+      if tabel2_y[n][optie][rij_nr] == c or c == leegveld:
         nieuwe_tabel.append(tabel2_y[n][optie])
       else:
         # print("Optie ",m," wordt verwijderd")
@@ -168,19 +167,19 @@ def verwijder_rijen(kolom_nr):
   for n in range(len(tabel2_y[kolom_nr])):
     pass
     for m in range(veldgrootte):
-      if tekst[m] != vraagteken and tekst[m] != tabel2_y[kolom_nr][n][m]:
-        tekst[m]=vraagteken
+      if tekst[m] != leegveld and tekst[m] != tabel2_y[kolom_nr][n][m]:
+        tekst[m]=leegveld
   return verwijder_rij(tekst, kolom_nr)
 
 def verwijder_rij(filter, kolom_nr):
-  if ''.join(filter) == vraagteken*veldgrootte:
+  if ''.join(filter) == leegveld*veldgrootte:
     return False
   verwijderd=False
   for n in range(veldgrootte):
     c=filter[n]
     nieuwe_tabel=[]
     for m in range(len(tabel2_x[n])):
-      if c == vraagteken or tabel2_x[n][m][kolom_nr] == c or c == vraagteken:
+      if c == leegveld or tabel2_x[n][m][kolom_nr] == c or c == leegveld:
         nieuwe_tabel.append(tabel2_x[n][m])
       else:
         # print("Optie ",m," wordt verwijderd")
@@ -217,15 +216,24 @@ def vul_tabel():
     tekst=list(tabel2_x[rij_nr][0])
     for n in range(len(tabel2_x[rij_nr])):
       for m in range(veldgrootte):
-        if tekst[m] != '_' and tekst[m] != tabel2_x[rij_nr][n][m]:
-          tekst[m]='_'
+        if tekst[m] != leegveld and tekst[m] != tabel2_x[rij_nr][n][m]:
+          tekst[m]=leegveld
     for kolom_nr in range(veldgrootte):
       tabel[rij_nr][kolom_nr]=tekst[kolom_nr]    
 
 def inside_info():
-  filter=vraagteken * (veldgrootte-8) + 'Y' * 7 + vraagteken
-  verwijder_kolom(list(filter),0)
-  print(tabel2_y[7])
+  # filter=leegveld * (veldgrootte-8) + vulblokje * 7 + leegveld
+  # verwijder_kolom(list(filter),0)
+  
+  for rij_nr in range(veldgrootte):
+    verwijder_kolom(list(tabel[rij_nr]), rij_nr)
+
+  for kolom_nr in range(veldgrootte):
+    tekst=''
+    for rij_nr in range(veldgrootte):
+      tekst+=tabel[rij_nr][kolom_nr]
+    verwijder_rij(list(tekst), kolom_nr)
+
       
 def main():
   lees_rij()
