@@ -3,14 +3,11 @@ Rij  0  heeft  2002 mogelijkheden
 Rij  1  heeft  75582 mogelijkheden
 Rij  2  heeft  1001 mogelijkheden
 Rij  3  heeft  66 mogelijkheden
-Rij  3  heeft  66  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  4  heeft  5005 mogelijkheden
 Rij  5  heeft  77520 mogelijkheden
 Rij  6  heeft  10 mogelijkheden
-Rij  6  heeft  10  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  7  heeft  2925 mogelijkheden
 Rij  8  heeft  36 mogelijkheden
-Rij  8  heeft  36  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  9  heeft  6435 mogelijkheden
 Rij  10  heeft  134596 mogelijkheden
 Rij  11  heeft  75582 mogelijkheden
@@ -23,197 +20,135 @@ Rij  17  heeft  203490 mogelijkheden
 Rij  18  heeft  5005 mogelijkheden
 Rij  19  heeft  245157 mogelijkheden
 Rij  20  heeft  15 mogelijkheden
-Rij  20  heeft  15  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  21  heeft  27132 mogelijkheden
 Rij  22  heeft  210 mogelijkheden
-Rij  22  heeft  210  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  23  heeft  116280 mogelijkheden
 Rij  24  heeft  330 mogelijkheden
-Rij  24  heeft  330  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  25  heeft  4368 mogelijkheden
 Rij  26  heeft  330 mogelijkheden
-Rij  26  heeft  330  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  27  heeft  75582 mogelijkheden
 Rij  28  heeft  1716 mogelijkheden
 Rij  29  heeft  1 mogelijkheden
-Rij  29  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Kolom  0  heeft  21 mogelijkheden
-Kolom  0  heeft  21  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  1  heeft  19280 mogelijkheden
 Kolom  2  heeft  77 mogelijkheden
-Kolom  2  heeft  77  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  3  heeft  2140 mogelijkheden
 Kolom  4  heeft  4 mogelijkheden
-Kolom  4  heeft  4  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  5  heeft  3608 mogelijkheden
 Kolom  6  heeft  1 mogelijkheden
-Kolom  6  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  7  heeft  453 mogelijkheden
-Kolom  7  heeft  453  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  8  heeft  26 mogelijkheden
-Kolom  8  heeft  26  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  9  heeft  237 mogelijkheden
-Kolom  9  heeft  237  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  10  heeft  6141 mogelijkheden
 Kolom  11  heeft  2078 mogelijkheden
 Kolom  12  heeft  1090 mogelijkheden
 Kolom  13  heeft  69 mogelijkheden
-Kolom  13  heeft  69  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  14  heeft  41 mogelijkheden
-Kolom  14  heeft  41  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  15  heeft  4551 mogelijkheden
 Kolom  16  heeft  348 mogelijkheden
-Kolom  16  heeft  348  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  17  heeft  855 mogelijkheden
-Kolom  17  heeft  855  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  18  heeft  3432 mogelijkheden
 Kolom  19  heeft  48620 mogelijkheden
 Kolom  20  heeft  3003 mogelijkheden
 Kolom  21  heeft  17776 mogelijkheden
 Kolom  22  heeft  546 mogelijkheden
-Kolom  22  heeft  546  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  23  heeft  1917 mogelijkheden
 Kolom  24  heeft  63 mogelijkheden
-Kolom  24  heeft  63  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  25  heeft  995 mogelijkheden
-Kolom  25  heeft  995  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  26  heeft  355 mogelijkheden
-Kolom  26  heeft  355  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  27  heeft  4515 mogelijkheden
 Kolom  28  heeft  7924 mogelijkheden
 Kolom  29  heeft  1 mogelijkheden
-Kolom  29  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Run  2
 Rij  0  heeft  1231 mogelijkheden
 Rij  1  heeft  9824 mogelijkheden
 Rij  2  heeft  129 mogelijkheden
-Rij  2  heeft  129  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  3  heeft  8 mogelijkheden
-Rij  3  heeft  8  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  4  heeft  222 mogelijkheden
-Rij  4  heeft  222  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Rij  5  heeft  1067 mogelijkheden
+Rij  5  heeft  837 mogelijkheden
 Rij  6  heeft  1 mogelijkheden
-Rij  6  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Rij  7  heeft  1729 mogelijkheden
+Rij  7  heeft  1521 mogelijkheden
 Rij  8  heeft  6 mogelijkheden
-Rij  8  heeft  6  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  9  heeft  492 mogelijkheden
-Rij  9  heeft  492  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  10  heeft  3589 mogelijkheden
 Rij  11  heeft  7925 mogelijkheden
 Rij  12  heeft  406 mogelijkheden
-Rij  12  heeft  406  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  13  heeft  456 mogelijkheden
-Rij  13  heeft  456  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  14  heeft  1376 mogelijkheden
 Rij  15  heeft  15093 mogelijkheden
 Rij  16  heeft  743 mogelijkheden
-Rij  16  heeft  743  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  17  heeft  6019 mogelijkheden
-Rij  18  heeft  554 mogelijkheden
-Rij  18  heeft  554  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Rij  19  heeft  6829 mogelijkheden
+Rij  18  heeft  239 mogelijkheden
+Rij  19  heeft  1373 mogelijkheden
 Rij  20  heeft  3 mogelijkheden
-Rij  20  heeft  3  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Rij  21  heeft  2566 mogelijkheden
+Rij  21  heeft  844 mogelijkheden
 Rij  22  heeft  22 mogelijkheden
-Rij  22  heeft  22  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  23  heeft  1178 mogelijkheden
 Rij  24  heeft  25 mogelijkheden
-Rij  24  heeft  25  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  25  heeft  192 mogelijkheden
-Rij  25  heeft  192  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  26  heeft  25 mogelijkheden
-Rij  26  heeft  25  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Rij  27  heeft  5392 mogelijkheden
+Rij  27  heeft  2883 mogelijkheden
 Rij  28  heeft  791 mogelijkheden
-Rij  28  heeft  791  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  29  heeft  1 mogelijkheden
-Rij  29  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Kolom  0  heeft  11 mogelijkheden
-Kolom  0  heeft  11  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Kolom  1  heeft  28 mogelijkheden
-Kolom  1  heeft  28  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  1  heeft  16 mogelijkheden
 Kolom  2  heeft  6 mogelijkheden
-Kolom  2  heeft  6  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Kolom  3  heeft  75 mogelijkheden
-Kolom  3  heeft  75  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  3  heeft  43 mogelijkheden
 Kolom  4  heeft  4 mogelijkheden
-Kolom  4  heeft  4  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Kolom  5  heeft  266 mogelijkheden
-Kolom  5  heeft  266  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  5  heeft  61 mogelijkheden
 Kolom  6  heeft  1 mogelijkheden
-Kolom  6  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Kolom  7  heeft  20 mogelijkheden
-Kolom  7  heeft  20  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  7  heeft  6 mogelijkheden
 Kolom  8  heeft  12 mogelijkheden
-Kolom  8  heeft  12  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Kolom  9  heeft  69 mogelijkheden
-Kolom  9  heeft  69  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  9  heeft  38 mogelijkheden
 Kolom  10  heeft  1250 mogelijkheden
 Kolom  11  heeft  758 mogelijkheden
-Kolom  11  heeft  758  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  12  heeft  368 mogelijkheden
-Kolom  12  heeft  368  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  13  heeft  69 mogelijkheden
-Kolom  13  heeft  69  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  14  heeft  24 mogelijkheden
-Kolom  14  heeft  24  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  15  heeft  909 mogelijkheden
-Kolom  15  heeft  909  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  16  heeft  213 mogelijkheden
-Kolom  16  heeft  213  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  17  heeft  420 mogelijkheden
-Kolom  17  heeft  420  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  18  heeft  2045 mogelijkheden
-Kolom  19  heeft  15262 mogelijkheden
-Kolom  20  heeft  367 mogelijkheden
-Kolom  20  heeft  367  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  19  heeft  11474 mogelijkheden
+Kolom  20  heeft  219 mogelijkheden
 Kolom  21  heeft  3709 mogelijkheden
 Kolom  22  heeft  546 mogelijkheden
-Kolom  22  heeft  546  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  23  heeft  769 mogelijkheden
-Kolom  23  heeft  769  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  24  heeft  42 mogelijkheden
-Kolom  24  heeft  42  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Kolom  25  heeft  614 mogelijkheden
-Kolom  25  heeft  614  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Kolom  26  heeft  305 mogelijkheden
-Kolom  26  heeft  305  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Kolom  27  heeft  1841 mogelijkheden
+Kolom  25  heeft  365 mogelijkheden
+Kolom  26  heeft  227 mogelijkheden
+Kolom  27  heeft  942 mogelijkheden
 Kolom  28  heeft  2653 mogelijkheden
 Kolom  29  heeft  1 mogelijkheden
-Kolom  29  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-_ _ Y Y Y Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   7 1 1 1 7 
-_ _ . . . . Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . . _ _ _ .   1 1 2 3 1 2 1 1 
+Y Y Y Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   7 1 1 1 7 
+_ _ . . . . Y . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ . . _ _ _ .   1 1 2 3 1 2 1 1 
 Y . Y Y Y . Y . _ Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 3 1 1 2 1 3 1 
 Y . Y Y Y . Y . _ Y _ _ Y Y Y _ _ Y _ _ _ _ _ _ Y Y _ _ _ .   1 3 1 2 4 2 1 1 3 1 
 Y . Y Y Y . Y . . _ _ _ _ Y _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 1 2 3 1 3 1 
-Y . . . . . Y . Y . _ _ _ _ _ Y Y _ _ _ . _ _ _ _ _ _ _ _ .   1 1 1 1 5 1 1 
+Y . . . . . Y . Y . _ _ _ _ _ Y Y _ _ _ . _ _ _ _ _ _ . _ .   1 1 1 1 5 1 1 
 Y Y Y Y Y Y Y . Y . Y . Y . Y . Y . Y . Y . Y Y Y Y Y Y Y .   7 1 1 1 1 1 1 1 7 
-_ . . . . . . _ . _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ _ _ .   1 2 1 
+_ . . . . . . _ . _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ . _ .   1 2 1 
 Y Y Y Y Y . Y Y Y Y Y Y Y Y Y . _ Y _ _ Y _ _ _ _ _ _ Y _ .   5 9 2 2 1 1 2 
 . Y Y . Y . . _ Y Y _ _ _ _ _ _ Y Y Y _ . _ _ _ _ _ _ _ _ .   2 1 3 1 1 4 3 1 
-_ _ . _ . . Y . . Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 
-_ _ . . _ _ . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
+. Y . _ . . Y . . Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 
+. . . . _ _ . . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
 Y Y Y Y Y . Y . Y Y . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   5 1 2 3 1 1 1 2 
 Y Y Y . _ _ . _ Y Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   3 1 4 1 1 2 3 2 
-_ _ . _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
-_ _ _ . Y _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 2 1 2 2 1 1 
-_ _ _ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 4 1 1 1 2 
+Y Y . _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
+_ . _ . Y _ . Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 2 1 2 2 1 1 
+_ Y _ _ _ . Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 4 1 1 1 2 
 Y . Y . _ _ . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 1 2 
 Y . Y Y Y . Y Y Y Y . _ _ _ _ _ _ _ _ _ Y _ _ _ _ _ _ _ _ .   1 3 4 1 1 2 1 2 1 
-_ _ _ _ . _ . . Y . _ _ _ _ . _ _ _ _ _ Y _ . _ Y _ _ _ _ .   1 1 1 1 1 2 1 
+_ _ _ _ . _ . . Y . . _ _ _ . _ _ _ _ _ Y _ . _ Y _ _ _ _ .   1 1 1 1 1 2 1 
 _ _ _ Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y _ . Y Y Y Y Y . Y Y Y .   1 16 5 3 
-_ . . _ . . . . Y . _ _ . _ _ _ Y _ _ _ _ _ . _ Y Y Y Y _ .   1 1 1 3 1 5 
-Y Y Y Y Y Y Y . _ Y Y _ _ _ Y Y Y _ _ _ _ _ _ _ Y _ _ _ _ .   7 3 5 2 1 3 
-Y . _ _ . . Y . . Y . _ _ . Y _ _ _ _ _ _ _ _ _ Y _ _ _ _ .   1 1 1 1 3 2 1 
-Y . Y Y Y . Y . Y Y Y Y Y Y Y . _ _ _ _ _ Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
-Y . _ _ Y _ Y . Y _ _ _ _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 2 1 1 1 1 1 2 1 
-Y . _ _ Y _ Y . Y _ _ _ _ _ Y Y Y _ _ _ _ _ _ Y Y Y _ _ _ .   1 3 1 2 6 1 6 
+_ . . _ . . . . Y . . _ . _ _ _ Y _ _ . Y . . _ Y Y Y Y _ .   1 1 1 3 1 5 
+Y Y Y Y Y Y Y . _ Y Y _ _ _ Y Y Y _ _ _ Y _ _ . Y _ Y _ _ .   7 3 5 2 1 3 
+Y . _ _ . . Y . . Y . _ _ . Y _ _ _ _ _ Y _ _ _ Y _ _ _ _ .   1 1 1 1 3 2 1 
+Y . Y Y Y . Y . Y Y Y Y Y Y Y . _ _ _ _ Y Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
+Y . _ _ Y _ Y . Y _ _ _ _ . _ _ _ _ _ . Y . _ _ _ _ _ _ _ .   1 3 1 2 1 1 1 1 1 2 1 
+Y . _ _ Y _ Y . Y _ _ _ _ Y Y Y Y _ _ . Y _ _ Y Y Y _ _ _ .   1 3 1 2 6 1 6 
 _ _ _ _ . . Y . Y . _ _ _ _ . . _ _ _ Y Y _ _ _ . _ _ _ _ .   1 1 1 1 1 5 1 1 
-_ _ _ _ Y Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1 
+Y Y Y Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   0
 
 7 1 1 1 1 1 7 2 1 4 1 3 1 1 2 1 1 1 4 1 1 1 7 1 1 1 1 1 7 0 
