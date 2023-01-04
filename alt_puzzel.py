@@ -18,28 +18,28 @@ gy=[[] for n in range(veldgrootte)]
 
 def lees_rij():
   # Makkelijke manier om alle rijen uit te lezen
-  global gx
-  global veldgrootte
+  # In de list gx[kolom] komen alle ingelezen rij-getallen te staan
   f = open('input_kerstpuzzel2022_rij.txt','r')
   regels = f.readlines()
   m=0
   for regel in regels:
     getallen = regel.strip().split('\t')
     totaal = 0
+    # Bereken het aantal gevulde vakjes
     for n in range(len(getallen)):
       totaal += int(getallen[n])
+    #Bij ieder blok van gevulde vakjes hoort een kruisje
     totaal += len(getallen)-1 if totaal else 0
+    # Ruimte is de speelruimte tussen veldgrootte en gevulde vakjes
+    # Ruimte wordt later gebruikt om het aantal mogelijke combinaties te berekenen
     ruimte = veldgrootte-totaal
-    begin = 0
     for n in range(len(getallen)):
       gx[m].append({'ruimte': ruimte ,'getal':int(getallen[n])})
-      begin += int(getallen[n]) + 1
     m+=1
 
 def lees_kolom():
-  # Makkelijke manier om alle kolommen uit te lezen
-  global gy
-  global veldgrootte
+  # Makkelijke manier om alle kolommen uit te lezen. Zie lees_rij() voor commentaar
+  # In de list gy[rij] komen alle ingelezen kolom-getallen te staan
   f = open('input_kerstpuzzel2022_kolom.txt','r')
   regels = f.readlines()
   m=0
@@ -57,7 +57,7 @@ def lees_kolom():
     m+=1
 
 def print_tabel():
-  # print de tabel
+  # print header met kolomnummers
   tekst=' ' * 5
   for n in range(veldgrootte):
     tekst+=str(int(n/10)).strip()+' '
@@ -67,6 +67,7 @@ def print_tabel():
     tekst+=str(int(n % 10)).strip()+' '
   print(tekst)
   print()
+  # print de tabel
   n=0
   for regel in tabel:
     cijfers=''
@@ -77,7 +78,8 @@ def print_tabel():
         cijfers='0'    
     print(str(n).zfill(2),' ', ' '.join(regel)," ",cijfers)
     n+=1
-    
+  
+  # print de cijfers onder de tabel
   print()
   rij1=True
   rij=0
@@ -93,20 +95,26 @@ def print_tabel():
     rij1=False
 
 def check_alle_mogelijkheden(m, kolom, speling_totaal, speling_max):
-  # print('== blabla(m,',kolom,',',speling_totaal,',',speling_max,')')
+  # Een recursieve functie die alle mogelijke combinaties uitrekent van een setje getallen uitrekent
+  # Stel een veld is 5 breed en de getallen zijn 1 1 dan zijn de volgende combinaties mogelijk
+  # X.X.. X..X. X...X .X.X. ..X.X (Speling is 2 posities)
+  # m is een list van getallen
+  # kolom is positie(index) vanaf waar de mogelijkheden berekend worden
+  # speling_totaal is de reeds gebruikte speling vanaf kolom 0.
+  # speling_max is het aantal posities speling dat voor deze set getallen geldt.
   blok = []
   # print("speling_max (",speling_max,") - speling_totaal(",speling_totaal,") =", speling_max - speling_totaal)
+  # Bereken voor ieder blokje alle mogelijkheden. Wanneer het eerste blokje niet alle speling heeft gebruikt dan
+  # kan de resterende speling voor het 2e,3e, enz. blokje gebruikt worden. Hier zit het recursieve gedeelte in.
+  # De functie geeft een lijst van mogelijkheden terug. 
   for spel in range(speling_max - speling_totaal + 1):
-    # print(spel, 'blabla kolom=',kolom, "extra x=",spel, "Max speling=",speling_max)    
     tekst = kruisje * spel + vulblokje * m[kolom]['getal'] 
     if kolom == len(m)-1:
       tekst += kruisje * (speling_max - speling_totaal - spel )
-    if kolom < len(m)-1:
-      antwoord = check_alle_mogelijkheden(m, kolom + 1, speling_totaal + spel, speling_max )
-    else:
       antwoord = []
+    else:
+      antwoord = check_alle_mogelijkheden(m, kolom + 1, speling_totaal + spel, speling_max )
     for antw in antwoord:
-      # print('Adding kolom ' , kolom , tekst + " " + antw)
       blok.append( tekst + kruisje + antw )
     if kolom == len(m) -1:
       blok.append(tekst)
@@ -114,43 +122,43 @@ def check_alle_mogelijkheden(m, kolom, speling_totaal, speling_max):
   return blok
 
 
-#mylist = list(dict.fromkeys(mylist))
-
 def bouw_alle_rijen():
-  # m=gx[29]
-  # m=[{'begin':0,'eind':4,'getal':2},{'begin':2,'eind':4,'getal':1},{'begin':2,'eind':4,'getal':2}]
-  # m=[{'begin':0,'eind':29,'getal':0}]
-  # print(m)
-  # print(check_alle_mogelijkheden(m,0,0,m[0]['ruimte']))
-  
+  # In lijst tabel2_x komt per rij alle mogelijke combinaties van de rij getallen te staan.
+  # In lijst tabel2_y komt per rij alle mogelijke combinaties van de kolom getallen te staan.
+  # Het startpunt van check_alle_mogelijkheden is:
+  # - de lijst van getallen voor rij n, kolom 0, gebruikte speling 0, maximale speling voor die rij 
+  # Het resultaat is een list die naar een dictionary en weer terug naar een list wordt omgezet om 
+  # alle duplicates eruit te filteren. (Alles ombouwen naar dictionaries zou de solver nog sneller maken)
   for n in range(veldgrootte):
     tabel2_x[n]=list(dict.fromkeys(check_alle_mogelijkheden(gx[n],0,0,gx[n][0]['ruimte'])))
     tabel2_y[n]=list(dict.fromkeys(check_alle_mogelijkheden(gy[n],0,0,gy[n][0]['ruimte'])))
       
 
-# Op basis van de mogelijke opties op rij rij_nr wordt er gekeken per positie
-# gekeken of in de kolomen er opties zijn die niet aan de oplossing voldoen.
-# Dus als in kolom 1 van rij rij_nr een Y staat dan kunnen alle oplossingen in
-# de kolommen tabel die op kolom 1 van rij rij_nr een '.' hebben staan,
-# verwijderd worden. Dit verkleint de dataset van mogelijke oplossingen  
 def verwijder_kolommen(rij_nr):
-  # print("Processing rij",rij_nr)
+  # Op rij X staat in tabel2_X alle mogelijke combinaties voor die rij
+  # Deze functie maakt een filter op basis van die combinaties
+  # Alle kolomcobinaties in de tabel2_Y die niet aan het filter voldoen worden verwijderd.
+
+  # Startpunt is de eerste combinatie
   tekst=list(tabel2_x[rij_nr][0])
   # print("Originele tekst: ",''.join(tekst))
-  # Als de set meerderde oplossingen heeft dan wordt er gekeken welke posities
-  # dezelfde waarden hebben vulblokje of '.' voor alle oplossingen.
-  # Bij een verschil wordt het filter een leegveld en genegeerd bij vergelijkingen.
+  # Controleer nu de overige combinaties. Een leegveld vakje wordt straks als wildcard gebruikt
   for n in range(len(tabel2_x[rij_nr])):
     for m in range(veldgrootte):
       if tekst[m] != leegveld and tekst[m] != tabel2_x[rij_nr][n][m]:
         tekst[m]=leegveld
   # print("Nieuwe tekst   : ",''.join(tekst))
+  # Roep de verwijder_kolom functie aan om te gaan filteren
   return verwijder_kolom(tekst, rij_nr)
 
 def verwijder_kolom(filter, rij_nr):
+  # Als het filter alleen wildcards bevat is geen vergelijking nodig
   if ''.join(filter) == leegveld*veldgrootte:
     return False
+  # Boolean verwijderd wordt voor het iteratieproces gebruikt om te bepalen of er nog wijzigingen hebben plaatsgevonden
   verwijderd=False
+  # Controleer character voor character of een item niet aan het filter voldoet.
+  # Vanwege de grootte van sommige lists wordt 2e list nieuwe_tabel aangemaakt en de oude verwijderd. Dit is vele malen sneller dan een item uit een lijst verwijderen
   for n in range(veldgrootte):
     # print("Processing rij",rij_nr,"kolom",n)
     c=filter[n]
@@ -172,15 +180,16 @@ def verwijder_kolom(filter, rij_nr):
   return verwijderd
 
 def verwijder_rijen(kolom_nr):
+  # Zie verwijder_kolommen voor commentaar
   tekst=list(tabel2_y[kolom_nr][0])
   for n in range(len(tabel2_y[kolom_nr])):
-    pass
     for m in range(veldgrootte):
       if tekst[m] != leegveld and tekst[m] != tabel2_y[kolom_nr][n][m]:
         tekst[m]=leegveld
   return verwijder_rij(tekst, kolom_nr)
 
 def verwijder_rij(filter, kolom_nr):
+  # Zie verwijder_kolom voor commentaar
   if ''.join(filter) == leegveld*veldgrootte:
     return False
   verwijderd=False
@@ -204,9 +213,9 @@ def verwijder_rij(filter, kolom_nr):
   return verwijderd
 
 def controleren():
-  rijen=[]
-  kolommen=[]
-  
+  # Deze functie ruimt net zo lang alle rijen/kolommen op totdat
+  # de oplossing gevonden is, er geen oplossing mogelijk is of
+  # het aantal iteraties > 100 (debug/runaway functie)
   verwijderd=True
   run=0
   while verwijderd:
@@ -224,21 +233,8 @@ def controleren():
       if verwijder_rijen(n):
         verwijderd = True
 
-    vul_tabel()
-    for rij_nr in range(veldgrootte):
-      # print("Rij ",str(rij_nr).zfill(2),''.join(tabel[rij_nr]))
-      if verwijder_kolom(tabel[rij_nr], rij_nr):
-        verwijderd = True
-    for kolom_nr in range(veldgrootte):
-      tekst=''
-      for rij_nr in range(veldgrootte):
-        tekst+=tabel[rij_nr][kolom_nr]
-      # print("Kolom ",str(kolom_nr).zfill(2),tekst)
-      if verwijder_rij(list(tekst), kolom_nr):
-        verwijderd = True
-    vul_tabel()
-
 def vul_tabel():
+  # Vul de tabel om te kunnen printen
   for rij_nr in range(veldgrootte):
     tekst=list(tabel2_x[rij_nr][0])
     for n in range(len(tabel2_x[rij_nr])):
@@ -253,6 +249,7 @@ def main():
   lees_kolom()
   bouw_alle_rijen()
   controleren()
+  vul_tabel()
   print_tabel()
     
 if __name__ == "__main__":
