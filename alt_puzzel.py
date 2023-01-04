@@ -6,13 +6,11 @@ maxaantalgetallen=15
 vulblokje='Y'
 kruisje="."
 leegveld="_"
+vraagteken="?"
   
 tabel=[[leegveld for n in range(veldgrootte)] for n in range(veldgrootte)]
 tabel2_x=[[] for n in range(veldgrootte)]
 tabel2_y=[[] for n in range(veldgrootte)]
-
-tabel2_xx=[0 for n in range(veldgrootte)]
-tabel2_yy=[0 for n in range(veldgrootte)]
 
 gx=[[] for n in range(veldgrootte)]
 gy=[[] for n in range(veldgrootte)]
@@ -133,31 +131,28 @@ def verwijder_kolommen(rij_nr):
   # print("Originele tekst: ",''.join(tekst))
   # Als de set meerderde oplossingen heeft dan wordt er gekeken welke posities
   # dezelfde waarden hebben 'Y' of '.' voor alle oplossingen.
-  # Bij een verschil wordt het filter een '?' en genegeerd bij vergelijkingen.
+  # Bij een verschil wordt het filter een vraagteken en genegeerd bij vergelijkingen.
   for n in range(len(tabel2_x[rij_nr])):
     for m in range(veldgrootte):
-      if tekst[m] != '?' and tekst[m] != tabel2_x[rij_nr][n][m]:
-        tekst[m]='?'
+      if tekst[m] != vraagteken and tekst[m] != tabel2_x[rij_nr][n][m]:
+        tekst[m]=vraagteken
   # print("Nieuwe tekst   : ",''.join(tekst))
   return verwijder_kolom(tekst, rij_nr)
 
 def verwijder_kolom(filter, rij_nr):
-  if ''.join(filter) == '?'*veldgrootte:
+  if ''.join(filter) == vraagteken*veldgrootte:
     return False
   verwijderd=False
   for n in range(veldgrootte):
     # print("Processing rij",rij_nr,"kolom",n)
     c=filter[n]
     nieuwe_tabel=[]
-    # print("len",len(tabel2_y[n]), tabel2_y[n])
     for optie in range(len(tabel2_y[n])):
-      # print(n,rij_nr,optie,tabel2_y[n][optie][rij_nr],'=',c)
-      if tabel2_y[n][optie][rij_nr] == c or c == '?':
+      if tabel2_y[n][optie][rij_nr] == c or c == vraagteken:
         nieuwe_tabel.append(tabel2_y[n][optie])
       else:
         # print("Optie ",m," wordt verwijderd")
         verwijderd=True
-    # print("Clearing table. Table was",len(tabel2_y[n]))
     tabel2_y[n].clear
     if len(nieuwe_tabel) == 0:
       print("Wat gaat hier fout?")
@@ -166,41 +161,35 @@ def verwijder_kolom(filter, rij_nr):
         print(''.join(n))
       raise Exception('Verwijder_kolommen: Wat gaat hier fout?')
     tabel2_y[n]=nieuwe_tabel
-    # print("Adding new table. Table is",len(tabel2_y[n]))
   return verwijderd
 
 def verwijder_rijen(kolom_nr):
-  # print("Processing kolom",kolom_nr)
   tekst=list(tabel2_y[kolom_nr][0])
-  # print("Originele tekst: ",tekst)
   for n in range(len(tabel2_y[kolom_nr])):
     pass
     for m in range(veldgrootte):
-      if tekst[m] != '?' and tekst[m] != tabel2_y[kolom_nr][n][m]:
-        tekst[m]='?'
-  # print("Nieuw tekst    : ",''.join(tekst))
+      if tekst[m] != vraagteken and tekst[m] != tabel2_y[kolom_nr][n][m]:
+        tekst[m]=vraagteken
   return verwijder_rij(tekst, kolom_nr)
 
 def verwijder_rij(filter, kolom_nr):
-  if ''.join(filter) == '?'*veldgrootte:
+  if ''.join(filter) == vraagteken*veldgrootte:
     return False
   verwijderd=False
   for n in range(veldgrootte):
     c=filter[n]
     nieuwe_tabel=[]
     for m in range(len(tabel2_x[n])):
-      if c == '?' or tabel2_x[n][m][kolom_nr] == c or c == '?':
+      if c == vraagteken or tabel2_x[n][m][kolom_nr] == c or c == vraagteken:
         nieuwe_tabel.append(tabel2_x[n][m])
       else:
         # print("Optie ",m," wordt verwijderd")
         verwijderd=True
-    # print("Clearing table. Table was",len(tabel2_x[n]))
     tabel2_x[n].clear    
     if len(nieuwe_tabel) == 0:
       print("Wat gaat hier fout?")
       raise Exception('Wat gaat hier fout?')
     tabel2_x[n]=nieuwe_tabel
-    # print("Adding new table. Table is",len(tabel2_x[n]))
   return verwijderd
 
 def controleren():
@@ -233,11 +222,20 @@ def vul_tabel():
     for kolom_nr in range(veldgrootte):
       tabel[rij_nr][kolom_nr]=tekst[kolom_nr]    
 
+def inside_info():
+  filter=vraagteken * (veldgrootte-8) + 'Y' * 7 + vraagteken
+  verwijder_kolom(list(filter),0)
+  print(tabel2_y[7])
       
 def main():
   lees_rij()
   lees_kolom()
   bouw_alle_rijen()
+  controleren()
+  vul_tabel()
+  print_tabel()
+
+  inside_info()
   controleren()
   vul_tabel()
   print_tabel()

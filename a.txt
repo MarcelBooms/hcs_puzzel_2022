@@ -165,3 +165,117 @@ Y Y Y Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1
                                                             
                                                             
                                                             
+[
+'.......YY....YYYY...Y.........', 
+'.......YY.....YYYY..Y.........', 
+'.......YY......YYYY.Y.........', 
+'........YY...YYYY...Y.........', 
+'........YY....YYYY..Y.........', 
+'........YY.....YYYY.Y.........']
+
+Run  1
+Rij  0  heeft  495 mogelijkheden
+Rij  1  heeft  514 mogelijkheden
+Rij  2  heeft  112 mogelijkheden
+Rij  3  heeft  8 mogelijkheden
+Rij  4  heeft  110 mogelijkheden
+Rij  5  heeft  188 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  670 mogelijkheden
+Rij  8  heeft  6 mogelijkheden
+Rij  9  heeft  50 mogelijkheden
+Rij  10  heeft  575 mogelijkheden
+Rij  11  heeft  716 mogelijkheden
+Rij  12  heeft  406 mogelijkheden
+Rij  13  heeft  364 mogelijkheden
+Rij  14  heeft  501 mogelijkheden
+Rij  15  heeft  4863 mogelijkheden
+Rij  16  heeft  630 mogelijkheden
+Rij  17  heeft  6019 mogelijkheden
+Rij  18  heeft  187 mogelijkheden
+Rij  19  heeft  1052 mogelijkheden
+Rij  20  heeft  3 mogelijkheden
+Rij  21  heeft  36 mogelijkheden
+Rij  22  heeft  11 mogelijkheden
+Rij  23  heeft  21 mogelijkheden
+Rij  24  heeft  16 mogelijkheden
+Rij  25  heeft  80 mogelijkheden
+Rij  26  heeft  9 mogelijkheden
+Rij  27  heeft  774 mogelijkheden
+Rij  28  heeft  240 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  4 mogelijkheden
+Kolom  3  heeft  4 mogelijkheden
+Kolom  4  heeft  3 mogelijkheden
+Kolom  5  heeft  3 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  2 mogelijkheden
+Kolom  8  heeft  9 mogelijkheden
+Kolom  9  heeft  4 mogelijkheden
+Kolom  10  heeft  64 mogelijkheden
+Kolom  11  heeft  758 mogelijkheden
+Kolom  12  heeft  368 mogelijkheden
+Kolom  13  heeft  63 mogelijkheden
+Kolom  14  heeft  24 mogelijkheden
+Kolom  15  heeft  384 mogelijkheden
+Kolom  16  heeft  129 mogelijkheden
+Kolom  17  heeft  90 mogelijkheden
+Kolom  18  heeft  1205 mogelijkheden
+Kolom  19  heeft  2306 mogelijkheden
+Kolom  20  heeft  219 mogelijkheden
+Kolom  21  heeft  2208 mogelijkheden
+Kolom  22  heeft  287 mogelijkheden
+Kolom  23  heeft  275 mogelijkheden
+Kolom  24  heeft  41 mogelijkheden
+Kolom  25  heeft  294 mogelijkheden
+Kolom  26  heeft  61 mogelijkheden
+Kolom  27  heeft  294 mogelijkheden
+Kolom  28  heeft  996 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+Y Y Y Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ . Y Y Y Y Y Y Y .   7 1 1 1 7 
+Y . . . . . Y . Y Y . _ _ Y _ _ _ _ _ _ _ . Y . . . . . Y .   1 1 2 3 1 2 1 1 
+Y . Y Y Y . Y . _ Y Y _ _ _ _ _ _ _ _ _ _ . Y . Y Y Y . Y .   1 3 1 3 1 1 2 1 3 1 
+Y . Y Y Y . Y . _ Y _ _ Y Y Y _ _ Y _ _ _ . Y . Y Y Y . Y .   1 3 1 2 4 2 1 1 3 1 
+Y . Y Y Y . Y . . _ _ _ _ Y _ . . Y Y Y . . Y . Y Y Y . Y .   1 3 1 1 2 3 1 3 1 
+Y . . . . . Y . Y . _ _ _ _ _ Y Y _ _ _ . . Y . . . . . Y .   1 1 1 1 5 1 1 
+Y Y Y Y Y Y Y . Y . Y . Y . Y . Y . Y . Y . Y Y Y Y Y Y Y .   7 1 1 1 1 1 1 1 7 
+. . . . . . . _ . _ _ _ _ _ _ _ . . _ _ . _ . _ . . _ . . .   1 2 1 
+Y Y Y Y Y . Y Y Y Y Y Y Y Y Y . _ Y _ _ Y _ _ _ _ _ _ Y _ .   5 9 2 2 1 1 2 
+. Y Y . Y . . Y Y Y . _ _ _ _ _ Y Y Y _ . _ _ _ _ _ _ _ _ .   2 1 3 1 1 4 3 1 
+. Y . _ . . Y . . Y _ _ _ _ _ _ _ . _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 
+. . . . Y Y . . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
+Y Y Y Y Y . Y . Y Y . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   5 1 2 3 1 1 1 2 
+Y Y Y . . Y . . Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   3 1 4 1 1 2 3 2 
+Y Y . . . Y Y . _ _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
+Y . Y . Y Y . Y . . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 2 1 2 2 1 1 
+. Y Y . Y . Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 4 1 1 1 2 
+Y . Y . . Y . Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 1 2 
+Y . Y Y Y . Y Y Y Y . _ _ _ _ _ _ _ _ _ Y _ _ _ _ _ _ _ _ .   1 3 4 1 1 2 1 2 1 
+Y . _ . . . . . Y . . _ _ _ . _ _ _ _ _ Y _ . _ Y _ . _ _ .   1 1 1 1 1 2 1 
+Y . _ Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y _ . Y Y Y Y Y . Y Y Y .   1 16 5 3 
+. . . . . . . . Y . . Y . _ _ _ Y Y _ . Y . . _ Y Y Y Y _ .   1 1 1 3 1 5 
+Y Y Y Y Y Y Y . _ Y Y _ _ _ Y Y Y _ _ _ Y _ _ . Y _ Y _ _ .   7 3 5 2 1 3 
+Y . _ _ . . Y . . Y . _ _ . Y _ _ _ _ _ Y _ _ _ Y _ . _ _ .   1 1 1 1 3 2 1 
+Y . Y Y Y . Y . Y Y Y Y Y Y Y . _ _ _ _ Y Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
+Y . Y Y Y . Y . Y Y . _ _ . _ _ _ _ _ . Y . _ _ _ _ _ _ _ .   1 3 1 2 1 1 1 1 1 2 1 
+Y . Y Y Y . Y . Y Y . _ _ Y Y Y Y _ _ . Y _ _ Y Y Y _ _ _ .   1 3 1 2 6 1 6 
+Y . . . . . Y . Y . _ _ _ . . . _ _ _ Y Y _ _ _ . _ _ _ _ .   1 1 1 1 1 5 1 1 
+Y Y Y Y Y Y Y . Y Y Y . _ _ _ _ _ _ . Y . _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   0
+
+7 1 1 1 1 1 7 2 1 4 1 3 1 1 2 1 1 1 4 1 1 1 7 1 1 1 1 1 7 0 
+1 1 3 3 3 1 1 4 1 7 3 2 2 3 4 1 1 3 2 1 1 1 1 1 3 3 3 1 2   
+4 3 1 1 1 1 1 1 2 1 1 2 3 2 2 1 2 2 3 1 1 2 1 3 1 1 1 1 1   
+4 3 2 1 2 3 1   2 1 1 1 1 3 4 1 2 1 2 1 1 1 1 2 1 1 1 1 1   
+7 1 2 1 2 1 1   3 5 1 2 1 1 1 3 1 1 1 1 1 1 1 5 1 2 1 3 2   
+  1 4 1 2 1 1   7 1 1 3 2 1 5 3 2 1 2 1 112 1 1 1 1 3 3 1   
+  1 1 1 1 1 1   5   1   1 3 1 2 1 1 2 2     1 2 1 1 3 1     
+    3 1 1 1 1       1   1 1   1 4 2   2     3   8 2 3 2     
+    1 3 1   7       1   2 1     3 1   2         1 3 1       
+      1 3           1     1       1                         
+        1                         1                         
+                                                            
+                                                            
+                                                            
