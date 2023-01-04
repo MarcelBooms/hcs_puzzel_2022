@@ -1,3 +1,4 @@
+
 Run  1
 Rij  0  heeft  2002 mogelijkheden
 Rij  1  heeft  75582 mogelijkheden
@@ -16,7 +17,7 @@ Rij  13  heeft  3003 mogelijkheden
 Rij  14  heeft  5005 mogelijkheden
 Rij  15  heeft  125970 mogelijkheden
 Rij  16  heeft  5005 mogelijkheden
-Rij  17  heeft  203490 mogelijkheden
+Rij  17  heeft  4368 mogelijkheden
 Rij  18  heeft  5005 mogelijkheden
 Rij  19  heeft  245157 mogelijkheden
 Rij  20  heeft  15 mogelijkheden
@@ -59,6 +60,7 @@ Kolom  26  heeft  355 mogelijkheden
 Kolom  27  heeft  4515 mogelijkheden
 Kolom  28  heeft  7924 mogelijkheden
 Kolom  29  heeft  1 mogelijkheden
+
 Run  2
 Rij  0  heeft  1231 mogelijkheden
 Rij  1  heeft  9824 mogelijkheden
@@ -77,7 +79,7 @@ Rij  13  heeft  456 mogelijkheden
 Rij  14  heeft  1376 mogelijkheden
 Rij  15  heeft  15093 mogelijkheden
 Rij  16  heeft  743 mogelijkheden
-Rij  17  heeft  6019 mogelijkheden
+Rij  17  heeft  313 mogelijkheden
 Rij  18  heeft  239 mogelijkheden
 Rij  19  heeft  1373 mogelijkheden
 Rij  20  heeft  3 mogelijkheden
@@ -120,60 +122,8 @@ Kolom  26  heeft  227 mogelijkheden
 Kolom  27  heeft  942 mogelijkheden
 Kolom  28  heeft  2653 mogelijkheden
 Kolom  29  heeft  1 mogelijkheden
-Y Y Y Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   7 1 1 1 7 
-_ _ . . . . Y . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ . . _ _ _ .   1 1 2 3 1 2 1 1 
-Y . Y Y Y . Y . _ Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 3 1 1 2 1 3 1 
-Y . Y Y Y . Y . _ Y _ _ Y Y Y _ _ Y _ _ _ _ _ _ Y Y _ _ _ .   1 3 1 2 4 2 1 1 3 1 
-Y . Y Y Y . Y . . _ _ _ _ Y _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 1 2 3 1 3 1 
-Y . . . . . Y . Y . _ _ _ _ _ Y Y _ _ _ . _ _ _ _ _ _ . _ .   1 1 1 1 5 1 1 
-Y Y Y Y Y Y Y . Y . Y . Y . Y . Y . Y . Y . Y Y Y Y Y Y Y .   7 1 1 1 1 1 1 1 7 
-_ . . . . . . _ . _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ . _ .   1 2 1 
-Y Y Y Y Y . Y Y Y Y Y Y Y Y Y . _ Y _ _ Y _ _ _ _ _ _ Y _ .   5 9 2 2 1 1 2 
-. Y Y . Y . . _ Y Y _ _ _ _ _ _ Y Y Y _ . _ _ _ _ _ _ _ _ .   2 1 3 1 1 4 3 1 
-. Y . _ . . Y . . Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 
-. . . . _ _ . . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
-Y Y Y Y Y . Y . Y Y . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   5 1 2 3 1 1 1 2 
-Y Y Y . _ _ . _ Y Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   3 1 4 1 1 2 3 2 
-Y Y . _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
-_ . _ . Y _ . Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 2 1 2 2 1 1 
-_ Y _ _ _ . Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 4 1 1 1 2 
-Y . Y . _ _ . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 1 2 
-Y . Y Y Y . Y Y Y Y . _ _ _ _ _ _ _ _ _ Y _ _ _ _ _ _ _ _ .   1 3 4 1 1 2 1 2 1 
-_ _ _ _ . _ . . Y . . _ _ _ . _ _ _ _ _ Y _ . _ Y _ _ _ _ .   1 1 1 1 1 2 1 
-_ _ _ Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y _ . Y Y Y Y Y . Y Y Y .   1 16 5 3 
-_ . . _ . . . . Y . . _ . _ _ _ Y _ _ . Y . . _ Y Y Y Y _ .   1 1 1 3 1 5 
-Y Y Y Y Y Y Y . _ Y Y _ _ _ Y Y Y _ _ _ Y _ _ . Y _ Y _ _ .   7 3 5 2 1 3 
-Y . _ _ . . Y . . Y . _ _ . Y _ _ _ _ _ Y _ _ _ Y _ _ _ _ .   1 1 1 1 3 2 1 
-Y . Y Y Y . Y . Y Y Y Y Y Y Y . _ _ _ _ Y Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
-Y . _ _ Y _ Y . Y _ _ _ _ . _ _ _ _ _ . Y . _ _ _ _ _ _ _ .   1 3 1 2 1 1 1 1 1 2 1 
-Y . _ _ Y _ Y . Y _ _ _ _ Y Y Y Y _ _ . Y _ _ Y Y Y _ _ _ .   1 3 1 2 6 1 6 
-_ _ _ _ . . Y . Y . _ _ _ _ . . _ _ _ Y Y _ _ _ . _ _ _ _ .   1 1 1 1 1 5 1 1 
-Y Y Y Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   0
 
-7 1 1 1 1 1 7 2 1 4 1 3 1 1 2 1 1 1 4 1 1 1 7 1 1 1 1 1 7 0 
-1 1 3 3 3 1 1 4 1 7 3 2 2 3 4 1 1 3 2 1 1 1 1 1 3 3 3 1 2   
-4 3 1 1 1 1 1 1 2 1 1 2 3 2 2 1 2 2 3 1 1 2 1 3 1 1 1 1 1   
-4 3 2 1 2 3 1   2 1 1 1 1 3 4 1 2 1 2 1 1 1 1 2 1 1 1 1 1   
-7 1 2 1 2 1 1   3 5 1 2 1 1 1 3 1 1 1 1 1 1 1 5 1 2 1 3 2   
-  1 4 1 2 1 1   7 1 1 3 2 1 5 3 2 1 2 1 112 1 1 1 1 3 3 1   
-  1 1 1 1 1 1   5   1   1 3 1 2 1 1 2 2     1 2 1 1 3 1     
-    3 1 1 1 1       1   1 1   1 4 2   2     3   8 2 3 2     
-    1 3 1   7       1   2 1     3 1   2         1 3 1       
-      1 3           1     1       1                         
-        1                         1                         
-                                                            
-                                                            
-                                                            
-[
-'.......YY....YYYY...Y.........', 
-'.......YY.....YYYY..Y.........', 
-'.......YY......YYYY.Y.........', 
-'........YY...YYYY...Y.........', 
-'........YY....YYYY..Y.........', 
-'........YY.....YYYY.Y.........']
-
-Run  1
+Run  3
 Rij  0  heeft  495 mogelijkheden
 Rij  1  heeft  514 mogelijkheden
 Rij  2  heeft  112 mogelijkheden
@@ -191,7 +141,7 @@ Rij  13  heeft  364 mogelijkheden
 Rij  14  heeft  501 mogelijkheden
 Rij  15  heeft  4863 mogelijkheden
 Rij  16  heeft  630 mogelijkheden
-Rij  17  heeft  6019 mogelijkheden
+Rij  17  heeft  313 mogelijkheden
 Rij  18  heeft  187 mogelijkheden
 Rij  19  heeft  1052 mogelijkheden
 Rij  20  heeft  3 mogelijkheden
@@ -226,56 +176,927 @@ Kolom  18  heeft  1205 mogelijkheden
 Kolom  19  heeft  2306 mogelijkheden
 Kolom  20  heeft  219 mogelijkheden
 Kolom  21  heeft  2208 mogelijkheden
-Kolom  22  heeft  287 mogelijkheden
-Kolom  23  heeft  275 mogelijkheden
+Kolom  22  heeft  546 mogelijkheden
+Kolom  23  heeft  530 mogelijkheden
+Kolom  24  heeft  42 mogelijkheden
+Kolom  25  heeft  365 mogelijkheden
+Kolom  26  heeft  110 mogelijkheden
+Kolom  27  heeft  942 mogelijkheden
+Kolom  28  heeft  2653 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  4
+Rij  0  heeft  495 mogelijkheden
+Rij  1  heeft  167 mogelijkheden
+Rij  2  heeft  112 mogelijkheden
+Rij  3  heeft  8 mogelijkheden
+Rij  4  heeft  20 mogelijkheden
+Rij  5  heeft  188 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  331 mogelijkheden
+Rij  8  heeft  6 mogelijkheden
+Rij  9  heeft  40 mogelijkheden
+Rij  10  heeft  454 mogelijkheden
+Rij  11  heeft  672 mogelijkheden
+Rij  12  heeft  406 mogelijkheden
+Rij  13  heeft  56 mogelijkheden
+Rij  14  heeft  119 mogelijkheden
+Rij  15  heeft  1001 mogelijkheden
+Rij  16  heeft  210 mogelijkheden
+Rij  17  heeft  120 mogelijkheden
+Rij  18  heeft  187 mogelijkheden
+Rij  19  heeft  138 mogelijkheden
+Rij  20  heeft  2 mogelijkheden
+Rij  21  heeft  6 mogelijkheden
+Rij  22  heeft  11 mogelijkheden
+Rij  23  heeft  19 mogelijkheden
+Rij  24  heeft  16 mogelijkheden
+Rij  25  heeft  72 mogelijkheden
+Rij  26  heeft  7 mogelijkheden
+Rij  27  heeft  51 mogelijkheden
+Rij  28  heeft  48 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  2 mogelijkheden
+Kolom  9  heeft  4 mogelijkheden
+Kolom  10  heeft  14 mogelijkheden
+Kolom  11  heeft  128 mogelijkheden
+Kolom  12  heeft  254 mogelijkheden
+Kolom  13  heeft  63 mogelijkheden
+Kolom  14  heeft  24 mogelijkheden
+Kolom  15  heeft  384 mogelijkheden
+Kolom  16  heeft  129 mogelijkheden
+Kolom  17  heeft  60 mogelijkheden
+Kolom  18  heeft  224 mogelijkheden
+Kolom  19  heeft  626 mogelijkheden
+Kolom  20  heeft  62 mogelijkheden
+Kolom  21  heeft  2208 mogelijkheden
+Kolom  22  heeft  546 mogelijkheden
+Kolom  23  heeft  530 mogelijkheden
 Kolom  24  heeft  41 mogelijkheden
 Kolom  25  heeft  294 mogelijkheden
-Kolom  26  heeft  61 mogelijkheden
-Kolom  27  heeft  294 mogelijkheden
-Kolom  28  heeft  996 mogelijkheden
+Kolom  26  heeft  110 mogelijkheden
+Kolom  27  heeft  942 mogelijkheden
+Kolom  28  heeft  2653 mogelijkheden
 Kolom  29  heeft  1 mogelijkheden
-Y Y Y Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ . Y Y Y Y Y Y Y .   7 1 1 1 7 
-Y . . . . . Y . Y Y . _ _ Y _ _ _ _ _ _ _ . Y . . . . . Y .   1 1 2 3 1 2 1 1 
-Y . Y Y Y . Y . _ Y Y _ _ _ _ _ _ _ _ _ _ . Y . Y Y Y . Y .   1 3 1 3 1 1 2 1 3 1 
-Y . Y Y Y . Y . _ Y _ _ Y Y Y _ _ Y _ _ _ . Y . Y Y Y . Y .   1 3 1 2 4 2 1 1 3 1 
-Y . Y Y Y . Y . . _ _ _ _ Y _ . . Y Y Y . . Y . Y Y Y . Y .   1 3 1 1 2 3 1 3 1 
-Y . . . . . Y . Y . _ _ _ _ _ Y Y _ _ _ . . Y . . . . . Y .   1 1 1 1 5 1 1 
-Y Y Y Y Y Y Y . Y . Y . Y . Y . Y . Y . Y . Y Y Y Y Y Y Y .   7 1 1 1 1 1 1 1 7 
-. . . . . . . _ . _ _ _ _ _ _ _ . . _ _ . _ . _ . . _ . . .   1 2 1 
-Y Y Y Y Y . Y Y Y Y Y Y Y Y Y . _ Y _ _ Y _ _ _ _ _ _ Y _ .   5 9 2 2 1 1 2 
-. Y Y . Y . . Y Y Y . _ _ _ _ _ Y Y Y _ . _ _ _ _ _ _ _ _ .   2 1 3 1 1 4 3 1 
-. Y . _ . . Y . . Y _ _ _ _ _ _ _ . _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 
-. . . . Y Y . . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
-Y Y Y Y Y . Y . Y Y . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   5 1 2 3 1 1 1 2 
-Y Y Y . . Y . . Y Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   3 1 4 1 1 2 3 2 
-Y Y . . . Y Y . _ _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
-Y . Y . Y Y . Y . . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 2 1 2 2 1 1 
-. Y Y . Y . Y Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 4 1 1 1 2 
-Y . Y . . Y . Y Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 1 2 
-Y . Y Y Y . Y Y Y Y . _ _ _ _ _ _ _ _ _ Y _ _ _ _ _ _ _ _ .   1 3 4 1 1 2 1 2 1 
-Y . _ . . . . . Y . . _ _ _ . _ _ _ _ _ Y _ . _ Y _ . _ _ .   1 1 1 1 1 2 1 
-Y . _ Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y _ . Y Y Y Y Y . Y Y Y .   1 16 5 3 
-. . . . . . . . Y . . Y . _ _ _ Y Y _ . Y . . _ Y Y Y Y _ .   1 1 1 3 1 5 
-Y Y Y Y Y Y Y . _ Y Y _ _ _ Y Y Y _ _ _ Y _ _ . Y _ Y _ _ .   7 3 5 2 1 3 
-Y . _ _ . . Y . . Y . _ _ . Y _ _ _ _ _ Y _ _ _ Y _ . _ _ .   1 1 1 1 3 2 1 
-Y . Y Y Y . Y . Y Y Y Y Y Y Y . _ _ _ _ Y Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
-Y . Y Y Y . Y . Y Y . _ _ . _ _ _ _ _ . Y . _ _ _ _ _ _ _ .   1 3 1 2 1 1 1 1 1 2 1 
-Y . Y Y Y . Y . Y Y . _ _ Y Y Y Y _ _ . Y _ _ Y Y Y _ _ _ .   1 3 1 2 6 1 6 
-Y . . . . . Y . Y . _ _ _ . . . _ _ _ Y Y _ _ _ . _ _ _ _ .   1 1 1 1 1 5 1 1 
-Y Y Y Y Y Y Y . Y Y Y . _ _ _ _ _ _ . Y . _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   0
 
-7 1 1 1 1 1 7 2 1 4 1 3 1 1 2 1 1 1 4 1 1 1 7 1 1 1 1 1 7 0 
-1 1 3 3 3 1 1 4 1 7 3 2 2 3 4 1 1 3 2 1 1 1 1 1 3 3 3 1 2   
-4 3 1 1 1 1 1 1 2 1 1 2 3 2 2 1 2 2 3 1 1 2 1 3 1 1 1 1 1   
-4 3 2 1 2 3 1   2 1 1 1 1 3 4 1 2 1 2 1 1 1 1 2 1 1 1 1 1   
-7 1 2 1 2 1 1   3 5 1 2 1 1 1 3 1 1 1 1 1 1 1 5 1 2 1 3 2   
-  1 4 1 2 1 1   7 1 1 3 2 1 5 3 2 1 2 1 112 1 1 1 1 3 3 1   
-  1 1 1 1 1 1   5   1   1 3 1 2 1 1 2 2     1 2 1 1 3 1     
-    3 1 1 1 1       1   1 1   1 4 2   2     3   8 2 3 2     
-    1 3 1   7       1   2 1     3 1   2         1 3 1       
-      1 3           1     1       1                         
-        1                         1                         
-                                                            
-                                                            
-                                                            
+Run  5
+Rij  0  heeft  224 mogelijkheden
+Rij  1  heeft  167 mogelijkheden
+Rij  2  heeft  25 mogelijkheden
+Rij  3  heeft  3 mogelijkheden
+Rij  4  heeft  20 mogelijkheden
+Rij  5  heeft  53 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  145 mogelijkheden
+Rij  8  heeft  6 mogelijkheden
+Rij  9  heeft  40 mogelijkheden
+Rij  10  heeft  348 mogelijkheden
+Rij  11  heeft  672 mogelijkheden
+Rij  12  heeft  406 mogelijkheden
+Rij  13  heeft  56 mogelijkheden
+Rij  14  heeft  119 mogelijkheden
+Rij  15  heeft  1001 mogelijkheden
+Rij  16  heeft  130 mogelijkheden
+Rij  17  heeft  60 mogelijkheden
+Rij  18  heeft  187 mogelijkheden
+Rij  19  heeft  36 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  6 mogelijkheden
+Rij  22  heeft  3 mogelijkheden
+Rij  23  heeft  15 mogelijkheden
+Rij  24  heeft  16 mogelijkheden
+Rij  25  heeft  34 mogelijkheden
+Rij  26  heeft  7 mogelijkheden
+Rij  27  heeft  9 mogelijkheden
+Rij  28  heeft  48 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  2 mogelijkheden
+Kolom  9  heeft  4 mogelijkheden
+Kolom  10  heeft  5 mogelijkheden
+Kolom  11  heeft  94 mogelijkheden
+Kolom  12  heeft  78 mogelijkheden
+Kolom  13  heeft  45 mogelijkheden
+Kolom  14  heeft  18 mogelijkheden
+Kolom  15  heeft  384 mogelijkheden
+Kolom  16  heeft  129 mogelijkheden
+Kolom  17  heeft  60 mogelijkheden
+Kolom  18  heeft  57 mogelijkheden
+Kolom  19  heeft  274 mogelijkheden
+Kolom  20  heeft  22 mogelijkheden
+Kolom  21  heeft  988 mogelijkheden
+Kolom  22  heeft  154 mogelijkheden
+Kolom  23  heeft  197 mogelijkheden
+Kolom  24  heeft  41 mogelijkheden
+Kolom  25  heeft  294 mogelijkheden
+Kolom  26  heeft  46 mogelijkheden
+Kolom  27  heeft  721 mogelijkheden
+Kolom  28  heeft  2366 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  6
+Rij  0  heeft  166 mogelijkheden
+Rij  1  heeft  21 mogelijkheden
+Rij  2  heeft  4 mogelijkheden
+Rij  3  heeft  3 mogelijkheden
+Rij  4  heeft  5 mogelijkheden
+Rij  5  heeft  6 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  92 mogelijkheden
+Rij  8  heeft  6 mogelijkheden
+Rij  9  heeft  40 mogelijkheden
+Rij  10  heeft  348 mogelijkheden
+Rij  11  heeft  672 mogelijkheden
+Rij  12  heeft  406 mogelijkheden
+Rij  13  heeft  56 mogelijkheden
+Rij  14  heeft  119 mogelijkheden
+Rij  15  heeft  1001 mogelijkheden
+Rij  16  heeft  130 mogelijkheden
+Rij  17  heeft  60 mogelijkheden
+Rij  18  heeft  136 mogelijkheden
+Rij  19  heeft  14 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  6 mogelijkheden
+Rij  22  heeft  3 mogelijkheden
+Rij  23  heeft  5 mogelijkheden
+Rij  24  heeft  16 mogelijkheden
+Rij  25  heeft  12 mogelijkheden
+Rij  26  heeft  4 mogelijkheden
+Rij  27  heeft  9 mogelijkheden
+Rij  28  heeft  27 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  2 mogelijkheden
+Kolom  9  heeft  4 mogelijkheden
+Kolom  10  heeft  5 mogelijkheden
+Kolom  11  heeft  94 mogelijkheden
+Kolom  12  heeft  78 mogelijkheden
+Kolom  13  heeft  14 mogelijkheden
+Kolom  14  heeft  18 mogelijkheden
+Kolom  15  heeft  384 mogelijkheden
+Kolom  16  heeft  129 mogelijkheden
+Kolom  17  heeft  15 mogelijkheden
+Kolom  18  heeft  41 mogelijkheden
+Kolom  19  heeft  268 mogelijkheden
+Kolom  20  heeft  22 mogelijkheden
+Kolom  21  heeft  370 mogelijkheden
+Kolom  22  heeft  154 mogelijkheden
+Kolom  23  heeft  27 mogelijkheden
+Kolom  24  heeft  41 mogelijkheden
+Kolom  25  heeft  294 mogelijkheden
+Kolom  26  heeft  40 mogelijkheden
+Kolom  27  heeft  264 mogelijkheden
+Kolom  28  heeft  1615 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  7
+Rij  0  heeft  102 mogelijkheden
+Rij  1  heeft  9 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  2 mogelijkheden
+Rij  4  heeft  5 mogelijkheden
+Rij  5  heeft  3 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  24 mogelijkheden
+Rij  8  heeft  5 mogelijkheden
+Rij  9  heeft  28 mogelijkheden
+Rij  10  heeft  10 mogelijkheden
+Rij  11  heeft  372 mogelijkheden
+Rij  12  heeft  283 mogelijkheden
+Rij  13  heeft  56 mogelijkheden
+Rij  14  heeft  119 mogelijkheden
+Rij  15  heeft  1001 mogelijkheden
+Rij  16  heeft  130 mogelijkheden
+Rij  17  heeft  24 mogelijkheden
+Rij  18  heeft  77 mogelijkheden
+Rij  19  heeft  6 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  4 mogelijkheden
+Rij  22  heeft  3 mogelijkheden
+Rij  23  heeft  5 mogelijkheden
+Rij  24  heeft  5 mogelijkheden
+Rij  25  heeft  10 mogelijkheden
+Rij  26  heeft  2 mogelijkheden
+Rij  27  heeft  6 mogelijkheden
+Rij  28  heeft  10 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  2 mogelijkheden
+Kolom  9  heeft  4 mogelijkheden
+Kolom  10  heeft  5 mogelijkheden
+Kolom  11  heeft  47 mogelijkheden
+Kolom  12  heeft  32 mogelijkheden
+Kolom  13  heeft  14 mogelijkheden
+Kolom  14  heeft  6 mogelijkheden
+Kolom  15  heeft  284 mogelijkheden
+Kolom  16  heeft  14 mogelijkheden
+Kolom  17  heeft  10 mogelijkheden
+Kolom  18  heeft  10 mogelijkheden
+Kolom  19  heeft  150 mogelijkheden
+Kolom  20  heeft  16 mogelijkheden
+Kolom  21  heeft  129 mogelijkheden
+Kolom  22  heeft  107 mogelijkheden
+Kolom  23  heeft  9 mogelijkheden
+Kolom  24  heeft  23 mogelijkheden
+Kolom  25  heeft  161 mogelijkheden
+Kolom  26  heeft  36 mogelijkheden
+Kolom  27  heeft  112 mogelijkheden
+Kolom  28  heeft  1615 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  8
+Rij  0  heeft  9 mogelijkheden
+Rij  1  heeft  3 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  2 mogelijkheden
+Rij  4  heeft  2 mogelijkheden
+Rij  5  heeft  2 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  5 mogelijkheden
+Rij  9  heeft  14 mogelijkheden
+Rij  10  heeft  9 mogelijkheden
+Rij  11  heeft  372 mogelijkheden
+Rij  12  heeft  283 mogelijkheden
+Rij  13  heeft  56 mogelijkheden
+Rij  14  heeft  119 mogelijkheden
+Rij  15  heeft  380 mogelijkheden
+Rij  16  heeft  122 mogelijkheden
+Rij  17  heeft  24 mogelijkheden
+Rij  18  heeft  77 mogelijkheden
+Rij  19  heeft  6 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  4 mogelijkheden
+Rij  22  heeft  2 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  2 mogelijkheden
+Rij  25  heeft  3 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  2 mogelijkheden
+Rij  28  heeft  8 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  2 mogelijkheden
+Kolom  9  heeft  2 mogelijkheden
+Kolom  10  heeft  4 mogelijkheden
+Kolom  11  heeft  14 mogelijkheden
+Kolom  12  heeft  16 mogelijkheden
+Kolom  13  heeft  4 mogelijkheden
+Kolom  14  heeft  6 mogelijkheden
+Kolom  15  heeft  16 mogelijkheden
+Kolom  16  heeft  10 mogelijkheden
+Kolom  17  heeft  5 mogelijkheden
+Kolom  18  heeft  5 mogelijkheden
+Kolom  19  heeft  36 mogelijkheden
+Kolom  20  heeft  16 mogelijkheden
+Kolom  21  heeft  92 mogelijkheden
+Kolom  22  heeft  107 mogelijkheden
+Kolom  23  heeft  9 mogelijkheden
+Kolom  24  heeft  23 mogelijkheden
+Kolom  25  heeft  35 mogelijkheden
+Kolom  26  heeft  36 mogelijkheden
+Kolom  27  heeft  64 mogelijkheden
+Kolom  28  heeft  506 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  9
+Rij  0  heeft  5 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  2 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  5 mogelijkheden
+Rij  9  heeft  14 mogelijkheden
+Rij  10  heeft  6 mogelijkheden
+Rij  11  heeft  250 mogelijkheden
+Rij  12  heeft  283 mogelijkheden
+Rij  13  heeft  35 mogelijkheden
+Rij  14  heeft  84 mogelijkheden
+Rij  15  heeft  380 mogelijkheden
+Rij  16  heeft  122 mogelijkheden
+Rij  17  heeft  17 mogelijkheden
+Rij  18  heeft  29 mogelijkheden
+Rij  19  heeft  2 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  2 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  2 mogelijkheden
+Rij  25  heeft  2 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  3 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  4 mogelijkheden
+Kolom  11  heeft  14 mogelijkheden
+Kolom  12  heeft  11 mogelijkheden
+Kolom  13  heeft  4 mogelijkheden
+Kolom  14  heeft  2 mogelijkheden
+Kolom  15  heeft  16 mogelijkheden
+Kolom  16  heeft  10 mogelijkheden
+Kolom  17  heeft  5 mogelijkheden
+Kolom  18  heeft  4 mogelijkheden
+Kolom  19  heeft  36 mogelijkheden
+Kolom  20  heeft  11 mogelijkheden
+Kolom  21  heeft  56 mogelijkheden
+Kolom  22  heeft  62 mogelijkheden
+Kolom  23  heeft  9 mogelijkheden
+Kolom  24  heeft  23 mogelijkheden
+Kolom  25  heeft  35 mogelijkheden
+Kolom  26  heeft  36 mogelijkheden
+Kolom  27  heeft  10 mogelijkheden
+Kolom  28  heeft  127 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  10
+Rij  0  heeft  3 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  2 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  5 mogelijkheden
+Rij  9  heeft  14 mogelijkheden
+Rij  10  heeft  6 mogelijkheden
+Rij  11  heeft  41 mogelijkheden
+Rij  12  heeft  283 mogelijkheden
+Rij  13  heeft  35 mogelijkheden
+Rij  14  heeft  74 mogelijkheden
+Rij  15  heeft  380 mogelijkheden
+Rij  16  heeft  122 mogelijkheden
+Rij  17  heeft  11 mogelijkheden
+Rij  18  heeft  23 mogelijkheden
+Rij  19  heeft  1 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  2 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  2 mogelijkheden
+Rij  25  heeft  2 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  3 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  3 mogelijkheden
+Kolom  11  heeft  14 mogelijkheden
+Kolom  12  heeft  11 mogelijkheden
+Kolom  13  heeft  1 mogelijkheden
+Kolom  14  heeft  2 mogelijkheden
+Kolom  15  heeft  10 mogelijkheden
+Kolom  16  heeft  7 mogelijkheden
+Kolom  17  heeft  5 mogelijkheden
+Kolom  18  heeft  4 mogelijkheden
+Kolom  19  heeft  36 mogelijkheden
+Kolom  20  heeft  11 mogelijkheden
+Kolom  21  heeft  56 mogelijkheden
+Kolom  22  heeft  62 mogelijkheden
+Kolom  23  heeft  9 mogelijkheden
+Kolom  24  heeft  23 mogelijkheden
+Kolom  25  heeft  35 mogelijkheden
+Kolom  26  heeft  36 mogelijkheden
+Kolom  27  heeft  10 mogelijkheden
+Kolom  28  heeft  92 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  11
+Rij  0  heeft  3 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  2 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  5 mogelijkheden
+Rij  9  heeft  14 mogelijkheden
+Rij  10  heeft  6 mogelijkheden
+Rij  11  heeft  41 mogelijkheden
+Rij  12  heeft  283 mogelijkheden
+Rij  13  heeft  35 mogelijkheden
+Rij  14  heeft  64 mogelijkheden
+Rij  15  heeft  194 mogelijkheden
+Rij  16  heeft  88 mogelijkheden
+Rij  17  heeft  11 mogelijkheden
+Rij  18  heeft  13 mogelijkheden
+Rij  19  heeft  1 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  2 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  2 mogelijkheden
+Rij  25  heeft  2 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  3 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  3 mogelijkheden
+Kolom  11  heeft  14 mogelijkheden
+Kolom  12  heeft  11 mogelijkheden
+Kolom  13  heeft  1 mogelijkheden
+Kolom  14  heeft  2 mogelijkheden
+Kolom  15  heeft  4 mogelijkheden
+Kolom  16  heeft  3 mogelijkheden
+Kolom  17  heeft  5 mogelijkheden
+Kolom  18  heeft  4 mogelijkheden
+Kolom  19  heeft  36 mogelijkheden
+Kolom  20  heeft  11 mogelijkheden
+Kolom  21  heeft  56 mogelijkheden
+Kolom  22  heeft  62 mogelijkheden
+Kolom  23  heeft  9 mogelijkheden
+Kolom  24  heeft  23 mogelijkheden
+Kolom  25  heeft  35 mogelijkheden
+Kolom  26  heeft  36 mogelijkheden
+Kolom  27  heeft  10 mogelijkheden
+Kolom  28  heeft  92 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  12
+Rij  0  heeft  3 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  2 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  5 mogelijkheden
+Rij  9  heeft  14 mogelijkheden
+Rij  10  heeft  6 mogelijkheden
+Rij  11  heeft  10 mogelijkheden
+Rij  12  heeft  213 mogelijkheden
+Rij  13  heeft  10 mogelijkheden
+Rij  14  heeft  64 mogelijkheden
+Rij  15  heeft  194 mogelijkheden
+Rij  16  heeft  88 mogelijkheden
+Rij  17  heeft  11 mogelijkheden
+Rij  18  heeft  13 mogelijkheden
+Rij  19  heeft  1 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  2 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  2 mogelijkheden
+Rij  25  heeft  2 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  3 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  3 mogelijkheden
+Kolom  11  heeft  14 mogelijkheden
+Kolom  12  heeft  7 mogelijkheden
+Kolom  13  heeft  1 mogelijkheden
+Kolom  14  heeft  2 mogelijkheden
+Kolom  15  heeft  4 mogelijkheden
+Kolom  16  heeft  3 mogelijkheden
+Kolom  17  heeft  1 mogelijkheden
+Kolom  18  heeft  4 mogelijkheden
+Kolom  19  heeft  13 mogelijkheden
+Kolom  20  heeft  7 mogelijkheden
+Kolom  21  heeft  56 mogelijkheden
+Kolom  22  heeft  62 mogelijkheden
+Kolom  23  heeft  6 mogelijkheden
+Kolom  24  heeft  23 mogelijkheden
+Kolom  25  heeft  35 mogelijkheden
+Kolom  26  heeft  36 mogelijkheden
+Kolom  27  heeft  10 mogelijkheden
+Kolom  28  heeft  92 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  13
+Rij  0  heeft  3 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  2 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  5 mogelijkheden
+Rij  9  heeft  12 mogelijkheden
+Rij  10  heeft  1 mogelijkheden
+Rij  11  heeft  10 mogelijkheden
+Rij  12  heeft  81 mogelijkheden
+Rij  13  heeft  10 mogelijkheden
+Rij  14  heeft  36 mogelijkheden
+Rij  15  heeft  113 mogelijkheden
+Rij  16  heeft  25 mogelijkheden
+Rij  17  heeft  4 mogelijkheden
+Rij  18  heeft  5 mogelijkheden
+Rij  19  heeft  1 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  2 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  2 mogelijkheden
+Rij  25  heeft  2 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  3 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  1 mogelijkheden
+Kolom  11  heeft  4 mogelijkheden
+Kolom  12  heeft  2 mogelijkheden
+Kolom  13  heeft  1 mogelijkheden
+Kolom  14  heeft  1 mogelijkheden
+Kolom  15  heeft  1 mogelijkheden
+Kolom  16  heeft  1 mogelijkheden
+Kolom  17  heeft  1 mogelijkheden
+Kolom  18  heeft  2 mogelijkheden
+Kolom  19  heeft  4 mogelijkheden
+Kolom  20  heeft  7 mogelijkheden
+Kolom  21  heeft  13 mogelijkheden
+Kolom  22  heeft  16 mogelijkheden
+Kolom  23  heeft  6 mogelijkheden
+Kolom  24  heeft  15 mogelijkheden
+Kolom  25  heeft  15 mogelijkheden
+Kolom  26  heeft  18 mogelijkheden
+Kolom  27  heeft  3 mogelijkheden
+Kolom  28  heeft  13 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  14
+Rij  0  heeft  1 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  1 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  5 mogelijkheden
+Rij  9  heeft  6 mogelijkheden
+Rij  10  heeft  1 mogelijkheden
+Rij  11  heeft  10 mogelijkheden
+Rij  12  heeft  20 mogelijkheden
+Rij  13  heeft  10 mogelijkheden
+Rij  14  heeft  9 mogelijkheden
+Rij  15  heeft  4 mogelijkheden
+Rij  16  heeft  4 mogelijkheden
+Rij  17  heeft  1 mogelijkheden
+Rij  18  heeft  1 mogelijkheden
+Rij  19  heeft  1 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  2 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  1 mogelijkheden
+Rij  25  heeft  1 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  1 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  1 mogelijkheden
+Kolom  11  heeft  1 mogelijkheden
+Kolom  12  heeft  1 mogelijkheden
+Kolom  13  heeft  1 mogelijkheden
+Kolom  14  heeft  1 mogelijkheden
+Kolom  15  heeft  1 mogelijkheden
+Kolom  16  heeft  1 mogelijkheden
+Kolom  17  heeft  1 mogelijkheden
+Kolom  18  heeft  1 mogelijkheden
+Kolom  19  heeft  1 mogelijkheden
+Kolom  20  heeft  3 mogelijkheden
+Kolom  21  heeft  11 mogelijkheden
+Kolom  22  heeft  16 mogelijkheden
+Kolom  23  heeft  6 mogelijkheden
+Kolom  24  heeft  2 mogelijkheden
+Kolom  25  heeft  2 mogelijkheden
+Kolom  26  heeft  4 mogelijkheden
+Kolom  27  heeft  3 mogelijkheden
+Kolom  28  heeft  5 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  15
+Rij  0  heeft  1 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  1 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  1 mogelijkheden
+Rij  9  heeft  6 mogelijkheden
+Rij  10  heeft  1 mogelijkheden
+Rij  11  heeft  4 mogelijkheden
+Rij  12  heeft  7 mogelijkheden
+Rij  13  heeft  1 mogelijkheden
+Rij  14  heeft  4 mogelijkheden
+Rij  15  heeft  2 mogelijkheden
+Rij  16  heeft  2 mogelijkheden
+Rij  17  heeft  1 mogelijkheden
+Rij  18  heeft  1 mogelijkheden
+Rij  19  heeft  1 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  1 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  1 mogelijkheden
+Rij  25  heeft  1 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  1 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  1 mogelijkheden
+Kolom  11  heeft  1 mogelijkheden
+Kolom  12  heeft  1 mogelijkheden
+Kolom  13  heeft  1 mogelijkheden
+Kolom  14  heeft  1 mogelijkheden
+Kolom  15  heeft  1 mogelijkheden
+Kolom  16  heeft  1 mogelijkheden
+Kolom  17  heeft  1 mogelijkheden
+Kolom  18  heeft  1 mogelijkheden
+Kolom  19  heeft  1 mogelijkheden
+Kolom  20  heeft  2 mogelijkheden
+Kolom  21  heeft  4 mogelijkheden
+Kolom  22  heeft  3 mogelijkheden
+Kolom  23  heeft  2 mogelijkheden
+Kolom  24  heeft  1 mogelijkheden
+Kolom  25  heeft  1 mogelijkheden
+Kolom  26  heeft  2 mogelijkheden
+Kolom  27  heeft  1 mogelijkheden
+Kolom  28  heeft  1 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  16
+Rij  0  heeft  1 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  1 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  1 mogelijkheden
+Rij  9  heeft  1 mogelijkheden
+Rij  10  heeft  1 mogelijkheden
+Rij  11  heeft  2 mogelijkheden
+Rij  12  heeft  1 mogelijkheden
+Rij  13  heeft  1 mogelijkheden
+Rij  14  heeft  3 mogelijkheden
+Rij  15  heeft  2 mogelijkheden
+Rij  16  heeft  1 mogelijkheden
+Rij  17  heeft  1 mogelijkheden
+Rij  18  heeft  1 mogelijkheden
+Rij  19  heeft  1 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  1 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  1 mogelijkheden
+Rij  25  heeft  1 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  1 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  1 mogelijkheden
+Kolom  11  heeft  1 mogelijkheden
+Kolom  12  heeft  1 mogelijkheden
+Kolom  13  heeft  1 mogelijkheden
+Kolom  14  heeft  1 mogelijkheden
+Kolom  15  heeft  1 mogelijkheden
+Kolom  16  heeft  1 mogelijkheden
+Kolom  17  heeft  1 mogelijkheden
+Kolom  18  heeft  1 mogelijkheden
+Kolom  19  heeft  1 mogelijkheden
+Kolom  20  heeft  2 mogelijkheden
+Kolom  21  heeft  1 mogelijkheden
+Kolom  22  heeft  1 mogelijkheden
+Kolom  23  heeft  1 mogelijkheden
+Kolom  24  heeft  1 mogelijkheden
+Kolom  25  heeft  1 mogelijkheden
+Kolom  26  heeft  1 mogelijkheden
+Kolom  27  heeft  1 mogelijkheden
+Kolom  28  heeft  1 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+
+Run  17
+Rij  0  heeft  1 mogelijkheden
+Rij  1  heeft  1 mogelijkheden
+Rij  2  heeft  1 mogelijkheden
+Rij  3  heeft  1 mogelijkheden
+Rij  4  heeft  1 mogelijkheden
+Rij  5  heeft  1 mogelijkheden
+Rij  6  heeft  1 mogelijkheden
+Rij  7  heeft  1 mogelijkheden
+Rij  8  heeft  1 mogelijkheden
+Rij  9  heeft  1 mogelijkheden
+Rij  10  heeft  1 mogelijkheden
+Rij  11  heeft  1 mogelijkheden
+Rij  12  heeft  1 mogelijkheden
+Rij  13  heeft  1 mogelijkheden
+Rij  14  heeft  1 mogelijkheden
+Rij  15  heeft  1 mogelijkheden
+Rij  16  heeft  1 mogelijkheden
+Rij  17  heeft  1 mogelijkheden
+Rij  18  heeft  1 mogelijkheden
+Rij  19  heeft  1 mogelijkheden
+Rij  20  heeft  1 mogelijkheden
+Rij  21  heeft  1 mogelijkheden
+Rij  22  heeft  1 mogelijkheden
+Rij  23  heeft  1 mogelijkheden
+Rij  24  heeft  1 mogelijkheden
+Rij  25  heeft  1 mogelijkheden
+Rij  26  heeft  1 mogelijkheden
+Rij  27  heeft  1 mogelijkheden
+Rij  28  heeft  1 mogelijkheden
+Rij  29  heeft  1 mogelijkheden
+Kolom  0  heeft  1 mogelijkheden
+Kolom  1  heeft  1 mogelijkheden
+Kolom  2  heeft  1 mogelijkheden
+Kolom  3  heeft  1 mogelijkheden
+Kolom  4  heeft  1 mogelijkheden
+Kolom  5  heeft  1 mogelijkheden
+Kolom  6  heeft  1 mogelijkheden
+Kolom  7  heeft  1 mogelijkheden
+Kolom  8  heeft  1 mogelijkheden
+Kolom  9  heeft  1 mogelijkheden
+Kolom  10  heeft  1 mogelijkheden
+Kolom  11  heeft  1 mogelijkheden
+Kolom  12  heeft  1 mogelijkheden
+Kolom  13  heeft  1 mogelijkheden
+Kolom  14  heeft  1 mogelijkheden
+Kolom  15  heeft  1 mogelijkheden
+Kolom  16  heeft  1 mogelijkheden
+Kolom  17  heeft  1 mogelijkheden
+Kolom  18  heeft  1 mogelijkheden
+Kolom  19  heeft  1 mogelijkheden
+Kolom  20  heeft  1 mogelijkheden
+Kolom  21  heeft  1 mogelijkheden
+Kolom  22  heeft  1 mogelijkheden
+Kolom  23  heeft  1 mogelijkheden
+Kolom  24  heeft  1 mogelijkheden
+Kolom  25  heeft  1 mogelijkheden
+Kolom  26  heeft  1 mogelijkheden
+Kolom  27  heeft  1 mogelijkheden
+Kolom  28  heeft  1 mogelijkheden
+Kolom  29  heeft  1 mogelijkheden
+     0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 
+     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 
+
+00   X X X X X X X . . X . . . . . . X . . X . . X X X X X X X .   7 1 1 1 7 
+01   X . . . . . X . X X . X X X . X . X X . . . X . . . . . X .   1 1 2 3 1 2 1 1 
+02   X . X X X . X . . X X X . . X . X . X X . . X . X X X . X .   1 3 1 3 1 1 2 1 3 1 
+03   X . X X X . X . X X . X X X X . . X X . X . X . X X X . X .   1 3 1 2 4 2 1 1 3 1 
+04   X . X X X . X . . . X . X X . . . X X X . . X . X X X . X .   1 3 1 1 2 3 1 3 1 
+05   X . . . . . X . X . X . . X X X X X . . . . X . . . . . X .   1 1 1 1 5 1 1 
+06   X X X X X X X . X . X . X . X . X . X . X . X X X X X X X .   7 1 1 1 1 1 1 1 7 
+07   . . . . . . . . . . . . X . X X . . X . . . . . . . . . . .   1 2 1 
+08   X X X X X . X X X X X X X X X . X X . . X X . X . X . X X .   5 9 2 2 1 1 2 
+09   . X X . X . . X X X . X . X . . X X X X . . X X X . . . X .   2 1 3 1 1 4 3 1 
+10   . X . . . . X . . X . . . . X X . . X . . . . X . . . . . .   1 1 1 2 1 1 
+11   . . . . X X . . . X X . . . X . X . X X . X . . X X . X . .   2 2 1 1 2 1 2 1 
+12   X X X X X . X . X X . X X X . . . X . . X . . X . X X . . .   5 1 2 3 1 1 1 2 
+13   X X X . . X . . X X X X . X . . X . X X . . X X X . . X X .   3 1 4 1 1 2 3 2 
+14   X X . . . X X . X X . . . X X X X X X . . X . . . X X X . .   2 2 2 6 1 3 
+15   X . X . X X . X . . . . . . X X . . . . X X . . X . . X . .   1 1 2 1 2 2 1 1 
+16   . X X . X . X X X . X . X X X X . X . X . . . X . X X . . .   2 1 3 1 4 1 1 1 2 
+17   X . X . . X . X X . . X . . X . X . . X X . X X X . X . X .   1 1 1 2 1 1 1 2 3 1 1 
+18   X . X X X . X X X X . . . X . X . X X . X . . X X . X . . .   1 3 4 1 1 2 1 2 1 
+19   X . . . . . . . X . . . X . . X . . . . X . . X X . . X . .   1 1 1 1 1 2 1 
+20   X . . X X X X X X X X X X X X X X X X . X X X X X . X X X .   1 16 5 3 
+21   . . . . . . . . X . . X . X . . X X X . X . . . X X X X X .   1 1 1 3 1 5 
+22   X X X X X X X . X X X . X X X X X . . X X . X . X X X . . .   7 3 5 2 1 3 
+23   X . . . . . X . . X . X . . X X X . . X X . . . X . . . . .   1 1 1 1 3 2 1 
+24   X . X X X . X . X X X X X X X . . X . . X X X X X . X X . .   1 3 1 7 1 5 2 
+25   X . X X X . X . X X . X . . X . X . X . X . . . . X X . X .   1 3 1 2 1 1 1 1 1 2 1 
+26   X . X X X . X . X X . . . X X X X X X . X . X X X X X X . .   1 3 1 2 6 1 6 
+27   X . . . . . X . X . . . X . . . X . . X X X X X . X . X . .   1 1 1 1 1 5 1 1 
+28   X X X X X X X . X X X . X X X . . X . X . X X . . . X . . .   7 3 3 1 1 2 1 
+29   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   0
+
+     7 1 1 1 1 1 7 2 1 4 1 3 1 1 2 1 1 1 4 1 1 1 7 1 1 1 1 1 7 0 
+     1 1 3 3 3 1 1 4 1 7 3 2 2 3 4 1 1 3 2 1 1 1 1 1 3 3 3 1 2   
+     4 3 1 1 1 1 1 1 2 1 1 2 3 2 2 1 2 2 3 1 1 2 1 3 1 1 1 1 1   
+     4 3 2 1 2 3 1   2 1 1 1 1 3 4 1 2 1 2 1 1 1 1 2 1 1 1 1 1   
+     7 1 2 1 2 1 1   3 5 1 2 1 1 1 3 1 1 1 1 1 1 1 5 1 2 1 3 2   
+       1 4 1 2 1 1   7 1 1 3 2 1 5 3 2 1 2 1 112 1 1 1 1 3 3 1   
+       1 1 1 1 1 1   5   1   1 3 1 2 1 1 2 2     1 2 1 1 3 1     
+         3 1 1 1 1       1   1 1   1 4 2   2     3   8 2 3 2     
+         1 3 1   7       1   2 1     3 1   2         1 3 1       
+           1 3           1     1       1                         
+             1                         1                         
+                                                                 
+                                                                 
+                                                                 

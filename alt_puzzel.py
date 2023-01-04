@@ -3,7 +3,7 @@ import timeit
 veldgrootte=30
 maxaantalgetallen=15
 
-vulblokje=vulblokje
+vulblokje="X"
 kruisje="."
 leegveld="_"
   
@@ -58,6 +58,15 @@ def lees_kolom():
 
 def print_tabel():
   # print de tabel
+  tekst=' ' * 5
+  for n in range(veldgrootte):
+    tekst+=str(int(n/10)).strip()+' '
+  print(tekst)
+  tekst=' ' * 5
+  for n in range(veldgrootte):
+    tekst+=str(int(n % 10)).strip()+' '
+  print(tekst)
+  print()
   n=0
   for regel in tabel:
     cijfers=''
@@ -66,14 +75,14 @@ def print_tabel():
         cijfers += str(cijfer['getal']) + ' '
       elif not cijfers:
         cijfers='0'    
-    print(' '.join(regel)," ",cijfers)
+    print(str(n).zfill(2),' ', ' '.join(regel)," ",cijfers)
     n+=1
     
   print()
   rij1=True
   rij=0
   for kolom in range(maxaantalgetallen-1):
-    cijfers=''
+    cijfers=' ' * 5
     for cijfer in gy:
       if rij1 or (len(cijfer)>kolom and cijfer[kolom]['getal']):
         cijfers += (str(cijfer[kolom]['getal']) + ' ')[:2]
@@ -154,8 +163,8 @@ def verwijder_kolom(filter, rij_nr):
         verwijderd=True
     tabel2_y[n].clear
     if len(nieuwe_tabel) == 0:
-      print("Wat gaat hier fout?")
-      print("Filter :"+''.join(tekst))
+      print("Er bestaat geen oplossing. Wat gaat hier fout?")
+      print(''.join(filter) + "  <-- Filter")
       for n in tabel2_y[n]:
         print(''.join(n))
       raise Exception('Verwijder_kolommen: Wat gaat hier fout?')
@@ -186,7 +195,10 @@ def verwijder_rij(filter, kolom_nr):
         verwijderd=True
     tabel2_x[n].clear    
     if len(nieuwe_tabel) == 0:
-      print("Wat gaat hier fout?")
+      print("Er bestaat geen oplossing. Wat gaat hier fout?")
+      print(''.join(filter) + "  <-- Filter")
+      for n in tabel2_x[n]:
+        print(''.join(n))
       raise Exception('Wat gaat hier fout?')
     tabel2_x[n]=nieuwe_tabel
   return verwijderd
@@ -202,14 +214,29 @@ def controleren():
     run+=1
     if run>100:
       break
-    print("Run ",run)
+    print("\nRun ",run)
     for n in range(veldgrootte):
       print("Rij " , n , " heeft ",len(tabel2_x[n]),"mogelijkheden")
       verwijderd = verwijder_kolommen(n)
   
     for n in range(veldgrootte):
       print("Kolom " , n , " heeft ",len(tabel2_y[n]),"mogelijkheden")    
-      verwijderd = verwijder_rijen(n)
+      if verwijder_rijen(n):
+        verwijderd = True
+
+    vul_tabel()
+    for rij_nr in range(veldgrootte):
+      # print("Rij ",str(rij_nr).zfill(2),''.join(tabel[rij_nr]))
+      if verwijder_kolom(tabel[rij_nr], rij_nr):
+        verwijderd = True
+    for kolom_nr in range(veldgrootte):
+      tekst=''
+      for rij_nr in range(veldgrootte):
+        tekst+=tabel[rij_nr][kolom_nr]
+      # print("Kolom ",str(kolom_nr).zfill(2),tekst)
+      if verwijder_rij(list(tekst), kolom_nr):
+        verwijderd = True
+    vul_tabel()
 
 def vul_tabel():
   for rij_nr in range(veldgrootte):
@@ -220,33 +247,13 @@ def vul_tabel():
           tekst[m]=leegveld
     for kolom_nr in range(veldgrootte):
       tabel[rij_nr][kolom_nr]=tekst[kolom_nr]    
-
-def inside_info():
-  # filter=leegveld * (veldgrootte-8) + vulblokje * 7 + leegveld
-  # verwijder_kolom(list(filter),0)
-  
-  for rij_nr in range(veldgrootte):
-    verwijder_kolom(list(tabel[rij_nr]), rij_nr)
-
-  for kolom_nr in range(veldgrootte):
-    tekst=''
-    for rij_nr in range(veldgrootte):
-      tekst+=tabel[rij_nr][kolom_nr]
-    verwijder_rij(list(tekst), kolom_nr)
-
-      
+        
 def main():
   lees_rij()
   lees_kolom()
   bouw_alle_rijen()
   controleren()
-  vul_tabel()
   print_tabel()
-
-  inside_info()
-  controleren()
-  vul_tabel()
-  print_tabel()
-  
+    
 if __name__ == "__main__":
   main()
