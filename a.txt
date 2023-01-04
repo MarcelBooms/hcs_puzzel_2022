@@ -3,29 +3,14 @@ Rij  0  heeft  2002 mogelijkheden
 Rij  1  heeft  75582 mogelijkheden
 Rij  2  heeft  1001 mogelijkheden
 Rij  3  heeft  66 mogelijkheden
-
 Rij  3  heeft  66  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 3
-Originele tekst:  Y.YYY.Y.YY.YYYY.YY.Y.Y.YYY.Y..
-Nieuwe tekst   :  ????Y????????YY??????????Y????
-Verwijder is True
 Rij  4  heeft  5005 mogelijkheden
 Rij  5  heeft  77520 mogelijkheden
 Rij  6  heeft  10 mogelijkheden
-
 Rij  6  heeft  10  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 6
-Originele tekst:  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Nieuwe tekst   :  ?YYYYYY????????????????YYYYYY?
-Verwijder is True
 Rij  7  heeft  2925 mogelijkheden
 Rij  8  heeft  36 mogelijkheden
-
 Rij  8  heeft  36  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 8
-Originele tekst:  YYYYY.YYYYYYYYY.YY.YY.Y.Y.YY..
-Nieuwe tekst   :  ??YYY???YYYYYYY???????????????
-Verwijder is True
 Rij  9  heeft  6435 mogelijkheden
 Rij  10  heeft  134596 mogelijkheden
 Rij  11  heeft  75582 mogelijkheden
@@ -38,555 +23,197 @@ Rij  17  heeft  203490 mogelijkheden
 Rij  18  heeft  5005 mogelijkheden
 Rij  19  heeft  245157 mogelijkheden
 Rij  20  heeft  15 mogelijkheden
-
 Rij  20  heeft  15  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 20
-Originele tekst:  Y.YYYYYYYYYYYYYYYY.YYYYY.YYY..
-Nieuwe tekst   :  ????YYYYYYYYYYYYYY???YYY???Y??
-Verwijder is True
 Rij  21  heeft  27132 mogelijkheden
 Rij  22  heeft  210 mogelijkheden
+Rij  22  heeft  210  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  23  heeft  116280 mogelijkheden
 Rij  24  heeft  330 mogelijkheden
+Rij  24  heeft  330  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  25  heeft  4368 mogelijkheden
 Rij  26  heeft  330 mogelijkheden
+Rij  26  heeft  330  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  27  heeft  75582 mogelijkheden
 Rij  28  heeft  1716 mogelijkheden
 Rij  29  heeft  1 mogelijkheden
-
 Rij  29  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 29
-Originele tekst:  ..............................
-Nieuwe tekst   :  ..............................
-Verwijder is True
 Kolom  0  heeft  21 mogelijkheden
 Kolom  0  heeft  21  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 0
-Originele tekst:  ['Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', '.', '.']
-Nieuw tekst    :  ??YYYYY?????YY???YY???YYYYY??.
-Verwijder is True
 Kolom  1  heeft  19280 mogelijkheden
 Kolom  2  heeft  77 mogelijkheden
 Kolom  2  heeft  77  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 2
-Originele tekst:  ['Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', '.', '.', '.']
-Nieuw tekst    :  ????Y?Y.Y????????Y???????????.
-Verwijder is True
 Kolom  3  heeft  2140 mogelijkheden
 Kolom  4  heeft  4 mogelijkheden
 Kolom  4  heeft  4  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 4
-Originele tekst:  ['Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', '.', '.', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.']
-Nieuw tekst    :  Y.YYY.Y.YY.?Y??Y???.Y.Y.YYY.Y.
-Verwijder is True
-Kolom  5  heeft  10212 mogelijkheden
+Kolom  5  heeft  3608 mogelijkheden
 Kolom  6  heeft  1 mogelijkheden
 Kolom  6  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 6
-Originele tekst:  ['Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.']
-Nieuw tekst    :  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Verwijder is True
 Kolom  7  heeft  453 mogelijkheden
+Kolom  7  heeft  453  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  8  heeft  26 mogelijkheden
 Kolom  8  heeft  26  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 8
-Originele tekst:  ['Y', '.', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', '.', '.', '.']
-Nieuw tekst    :  ?????Y??Y???Y???YYYYY???YYY??.
-Verwijder is True
 Kolom  9  heeft  237 mogelijkheden
+Kolom  9  heeft  237  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  10  heeft  6141 mogelijkheden
 Kolom  11  heeft  2078 mogelijkheden
-Kolom  12  heeft  3310 mogelijkheden
-Kolom  13  heeft  132 mogelijkheden
-Kolom  14  heeft  57 mogelijkheden
-Kolom  14  heeft  57  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 14
-Originele tekst:  ['Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', '.', '.', '.', '.']
-Nieuw tekst    :  ???Y????Y???????????Y?Y??????.
-Verwijder is True
-Kolom  15  heeft  15089 mogelijkheden
-Kolom  16  heeft  385 mogelijkheden
+Kolom  12  heeft  1090 mogelijkheden
+Kolom  13  heeft  69 mogelijkheden
+Kolom  13  heeft  69  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  14  heeft  41 mogelijkheden
+Kolom  14  heeft  41  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  15  heeft  4551 mogelijkheden
+Kolom  16  heeft  348 mogelijkheden
+Kolom  16  heeft  348  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  17  heeft  855 mogelijkheden
+Kolom  17  heeft  855  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  18  heeft  3432 mogelijkheden
 Kolom  19  heeft  48620 mogelijkheden
 Kolom  20  heeft  3003 mogelijkheden
 Kolom  21  heeft  17776 mogelijkheden
-Kolom  22  heeft  1107 mogelijkheden
+Kolom  22  heeft  546 mogelijkheden
+Kolom  22  heeft  546  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  23  heeft  1917 mogelijkheden
-Kolom  24  heeft  112 mogelijkheden
-Kolom  25  heeft  1080 mogelijkheden
+Kolom  24  heeft  63 mogelijkheden
+Kolom  24  heeft  63  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  25  heeft  995 mogelijkheden
+Kolom  25  heeft  995  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  26  heeft  355 mogelijkheden
+Kolom  26  heeft  355  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  27  heeft  4515 mogelijkheden
 Kolom  28  heeft  7924 mogelijkheden
 Kolom  29  heeft  1 mogelijkheden
 Kolom  29  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 29
-Originele tekst:  ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
-Nieuw tekst    :  ..............................
-Verwijder is True
 Run  2
 Rij  0  heeft  1231 mogelijkheden
-Rij  1  heeft  13893 mogelijkheden
+Rij  1  heeft  9824 mogelijkheden
 Rij  2  heeft  129 mogelijkheden
+Rij  2  heeft  129  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  3  heeft  8 mogelijkheden
-
 Rij  3  heeft  8  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 3
-Originele tekst:  Y.YYY.Y.YY.YYYY.YY.Y.Y.YYY.Y..
-Nieuwe tekst   :  Y.YYY.Y.?Y??YYY??Y??????YY???.
-Verwijder is True
-Rij  4  heeft  462 mogelijkheden
+Rij  4  heeft  222 mogelijkheden
+Rij  4  heeft  222  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  5  heeft  1067 mogelijkheden
 Rij  6  heeft  1 mogelijkheden
-
 Rij  6  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 6
-Originele tekst:  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Nieuwe tekst   :  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Verwijder is True
 Rij  7  heeft  1729 mogelijkheden
 Rij  8  heeft  6 mogelijkheden
-
 Rij  8  heeft  6  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 8
-Originele tekst:  YYYYY.YYYYYYYYY.YY.YY.Y.Y.YY..
-Nieuwe tekst   :  YYYYY.YYYYYYYYY.?Y??Y??????Y?.
-Verwijder is True
 Rij  9  heeft  492 mogelijkheden
-Rij  10  heeft  16336 mogelijkheden
-Rij  11  heeft  23760 mogelijkheden
-Rij  12  heeft  462 mogelijkheden
+Rij  9  heeft  492  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
+Rij  10  heeft  3589 mogelijkheden
+Rij  11  heeft  7925 mogelijkheden
+Rij  12  heeft  406 mogelijkheden
+Rij  12  heeft  406  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  13  heeft  456 mogelijkheden
+Rij  13  heeft  456  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  14  heeft  1376 mogelijkheden
 Rij  15  heeft  15093 mogelijkheden
 Rij  16  heeft  743 mogelijkheden
+Rij  16  heeft  743  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  17  heeft  6019 mogelijkheden
 Rij  18  heeft  554 mogelijkheden
-Rij  19  heeft  22961 mogelijkheden
-Rij  20  heeft  5 mogelijkheden
-
-Rij  20  heeft  5  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 20
-Originele tekst:  Y.YYYYYYYYYYYYYYYY.YYYYY.YYY..
-Nieuwe tekst   :  ???YYYYYYYYYYYYYYY??YYYY??YY?.
-Verwijder is True
-Rij  21  heeft  10519 mogelijkheden
-Rij  22  heeft  52 mogelijkheden
-
-Rij  22  heeft  52  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 22
-Originele tekst:  YYYYYYY.YYY.YYYYY.YY.Y.YYY....
-Nieuwe tekst   :  YYYYYYY.??Y???YYY????????????.
-Verwijder is True
-Rij  23  heeft  4732 mogelijkheden
+Rij  18  heeft  554  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
+Rij  19  heeft  6829 mogelijkheden
+Rij  20  heeft  3 mogelijkheden
+Rij  20  heeft  3  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
+Rij  21  heeft  2566 mogelijkheden
+Rij  22  heeft  22 mogelijkheden
+Rij  22  heeft  22  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
+Rij  23  heeft  1178 mogelijkheden
 Rij  24  heeft  25 mogelijkheden
-
 Rij  24  heeft  25  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 24
-Originele tekst:  Y.YYY.Y.YYYYYYY.Y.YYYYY.YY....
-Nieuwe tekst   :  Y.??Y?Y.Y??YYYY??????YY??????.
-Verwijder is True
-Rij  25  heeft  375 mogelijkheden
+Rij  25  heeft  192 mogelijkheden
+Rij  25  heeft  192  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  26  heeft  25 mogelijkheden
-
 Rij  26  heeft  25  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 26
-Originele tekst:  Y.YYY.Y.YY.YYYYYY.Y.YYYYYY....
-Nieuwe tekst   :  Y.??Y?Y.Y?????YYY??????YYY???.
-Verwijder is True
-Rij  27  heeft  7887 mogelijkheden
+Rij  27  heeft  5392 mogelijkheden
 Rij  28  heeft  791 mogelijkheden
+Rij  28  heeft  791  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
 Rij  29  heeft  1 mogelijkheden
-
 Rij  29  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel
-Processing rij 29
-Originele tekst:  ..............................
-Nieuwe tekst   :  ..............................
-Verwijder is False
 Kolom  0  heeft  11 mogelijkheden
 Kolom  0  heeft  11  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 0
-Originele tekst:  ['Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', '.', '.']
-Nieuw tekst    :  ??YYYYY?Y.??YY???YY???YYYYY??.
-Verwijder is True
-Kolom  1  heeft  942 mogelijkheden
-Kolom  2  heeft  26 mogelijkheden
-Kolom  2  heeft  26  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 2
-Originele tekst:  ['Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', '.', '.', '.']
-Nieuw tekst    :  Y.YYY.Y.YY.??????Y????Y??????.
-Verwijder is True
-Kolom  3  heeft  227 mogelijkheden
+Kolom  1  heeft  28 mogelijkheden
+Kolom  1  heeft  28  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  2  heeft  6 mogelijkheden
+Kolom  2  heeft  6  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
+Kolom  3  heeft  75 mogelijkheden
+Kolom  3  heeft  75  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  4  heeft  4 mogelijkheden
 Kolom  4  heeft  4  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 4
-Originele tekst:  ['Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', '.', '.', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.']
-Nieuw tekst    :  Y.YYY.Y.YY.?Y??Y???.Y.Y.YYY.Y.
-Verwijder is False
-Kolom  5  heeft  1818 mogelijkheden
+Kolom  5  heeft  266 mogelijkheden
+Kolom  5  heeft  266  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  6  heeft  1 mogelijkheden
 Kolom  6  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 6
-Originele tekst:  ['Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.']
-Nieuw tekst    :  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Verwijder is False
-Kolom  7  heeft  33 mogelijkheden
-Kolom  7  heeft  33  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 7
-Originele tekst:  ['Y', 'Y', '.', '.', '.', '.', '.', 'Y', 'Y', 'Y', 'Y', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'Y', '.', '.', '.', '.', '.', '.', '.', '.', '.']
-Nieuw tekst    :  ???.??.?Y???????????Y?.?.?.??.
-Verwijder is False
+Kolom  7  heeft  20 mogelijkheden
+Kolom  7  heeft  20  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  8  heeft  12 mogelijkheden
 Kolom  8  heeft  12  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 8
-Originele tekst:  ['Y', '.', 'Y', '.', '.', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', '.', '.']
-Nieuw tekst    :  ????.YY.YY.?YY??YYYYYY??YYYY?.
-Verwijder is True
 Kolom  9  heeft  69 mogelijkheden
 Kolom  9  heeft  69  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 9
-Originele tekst:  ['Y', 'Y', 'Y', 'Y', '.', '.', '.', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', '.', '.', '.']
-Nieuw tekst    :  ??YY??.?YYYYYY??????Y?YY?????.
-Verwijder is True
-Kolom  10  heeft  1975 mogelijkheden
+Kolom  10  heeft  1250 mogelijkheden
 Kolom  11  heeft  758 mogelijkheden
+Kolom  11  heeft  758  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  12  heeft  368 mogelijkheden
+Kolom  12  heeft  368  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  13  heeft  69 mogelijkheden
 Kolom  13  heeft  69  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 13
-Originele tekst:  ['Y', '.', 'Y', 'Y', 'Y', '.', '.', 'Y', 'Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', '.', '.']
-Nieuw tekst    :  ???YY?.?Y???Y???????Y??.Y.???.
-Verwijder is True
 Kolom  14  heeft  24 mogelijkheden
 Kolom  14  heeft  24  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 14
-Originele tekst:  ['Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', 'Y', '.', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', '.', '.', 'Y', 'Y', 'Y', 'Y', 'Y', '.', 'Y', '.', '.', '.']
-Nieuw tekst    :  ???Y??Y?Y??????????.Y?YYY?Y.?.
-Verwijder is True
 Kolom  15  heeft  909 mogelijkheden
+Kolom  15  heeft  909  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  16  heeft  213 mogelijkheden
+Kolom  16  heeft  213  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  17  heeft  420 mogelijkheden
+Kolom  17  heeft  420  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  18  heeft  2045 mogelijkheden
-Kolom  19  heeft  32197 mogelijkheden
+Kolom  19  heeft  15262 mogelijkheden
 Kolom  20  heeft  367 mogelijkheden
+Kolom  20  heeft  367  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  21  heeft  3709 mogelijkheden
 Kolom  22  heeft  546 mogelijkheden
+Kolom  22  heeft  546  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  23  heeft  769 mogelijkheden
+Kolom  23  heeft  769  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  24  heeft  42 mogelijkheden
 Kolom  24  heeft  42  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 24
-Originele tekst:  ['Y', '.', 'Y', 'Y', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', '.', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', '.', '.', 'Y', '.', '.', '.']
-Nieuw tekst    :  ?.?Y??Y????????????YYYYY??Y.?.
-Verwijder is True
-Kolom  25  heeft  995 mogelijkheden
+Kolom  25  heeft  614 mogelijkheden
+Kolom  25  heeft  614  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  26  heeft  305 mogelijkheden
+Kolom  26  heeft  305  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
 Kolom  27  heeft  1841 mogelijkheden
-Kolom  28  heeft  7924 mogelijkheden
+Kolom  28  heeft  2653 mogelijkheden
 Kolom  29  heeft  1 mogelijkheden
 Kolom  29  heeft  1  oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel
-Processing kolom 29
-Originele tekst:  ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
-Nieuw tekst    :  ..............................
-Verwijder is False
-Processing rij 0
-Originele tekst:  YYYYYYY.Y.Y.Y.YYYYYYY.........
-Nieuwe tekst   :  __YYYYY______________________.
-Processing rij 1
-Originele tekst:  Y..Y.YY.YYY.Y.YY.Y.Y..........
-Nieuwe tekst   :  __._._Y_________________.____.
-Processing rij 2
-Originele tekst:  Y.YYY.Y.YYY.Y.Y.YY.Y.YYY.Y....
-Nieuwe tekst   :  Y.YYY.Y._YY__________________.
-Processing rij 3
-Originele tekst:  Y.YYY.Y.YY.YYYY.YY.Y.Y.YYY.Y..
-Nieuwe tekst   :  Y.YYY.Y._Y__YYY__Y______YY___.
-Processing rij 4
-Originele tekst:  Y.YYY.Y..Y..YY.YYY.Y.YYY.Y....
-Nieuwe tekst   :  Y.YYY.Y..____Y_______________.
-Processing rij 5
-Originele tekst:  Y..Y..Y.Y.YYYYY.Y.Y...........
-Nieuwe tekst   :  Y.._..Y.Y.___________________.
-Processing rij 6
-Originele tekst:  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Nieuwe tekst   :  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Processing rij 7
-Originele tekst:  Y........YY.Y.................
-Nieuwe tekst   :  __._._._.____________________.
-Processing rij 8
-Originele tekst:  YYYYY.YYYYYYYYY.YY.YY.Y.Y.YY..
-Nieuwe tekst   :  YYYYY.YYYYYYYYY._Y__Y______Y_.
-Processing rij 9
-Originele tekst:  .YY.Y..YYY.Y.Y.YYYY.YYY.Y.....
-Nieuwe tekst   :  .YY.Y.._YY___________________.
-Processing rij 10
-Originele tekst:  Y..Y..Y..YY.Y.Y...............
-Nieuwe tekst   :  __._..Y..Y___________________.
-Processing rij 11
-Originele tekst:  YY.YY..Y.Y.YY.Y.YY.Y..........
-Nieuwe tekst   :  ______.__Y___________________.
-Processing rij 12
-Originele tekst:  YYYYY.Y.YY.YYY.Y.Y.Y.YY.......
-Nieuwe tekst   :  YYYYY.Y.YY.__Y_______________.
-Processing rij 13
-Originele tekst:  YYY.Y..YYYY.Y.Y.YY.YYY.YY.....
-Nieuwe tekst   :  YYY.__._YYY__________________.
-Processing rij 14
-Originele tekst:  YY.YY.YY.YYYYYY.Y.YYY.........
-Nieuwe tekst   :  ______Y______________________.
-Processing rij 15
-Originele tekst:  Y.Y.YY.Y.YY.YY.Y.Y............
-Nieuwe tekst   :  ___.Y_.______________________.
-Processing rij 16
-Originele tekst:  YY.Y..YYY.Y.YYYY.Y.Y.Y.YY.....
-Nieuwe tekst   :  ______Y_Y____________________.
-Processing rij 17
-Originele tekst:  Y.Y.Y..YY.Y.Y.Y.YY............
-Nieuwe tekst   :  Y.Y.__._Y____________________.
-Processing rij 18
-Originele tekst:  Y.YYY.YYYY.Y.Y.YY.Y.YY.Y......
-Nieuwe tekst   :  Y.____Y_Y____________________.
-Processing rij 19
-Originele tekst:  Y.Y..Y..Y.Y.YY..........Y.....
-Nieuwe tekst   :  ____._..Y.____._________Y____.
-Processing rij 20
-Originele tekst:  Y.YYYYYYYYYYYYYYYY..YYYYY.YYY.
-Nieuwe tekst   :  ___YYYYYYYYYYYYYYY_.YYYYY.YYY.
-Processing rij 21
-Originele tekst:  Y.Y..Y.YYY.Y........YYYYY.....
-Nieuwe tekst   :  ____._._Y_______________Y____.
-Processing rij 22
-Originele tekst:  YYYYYYY.YYY.YYYYY.YY.Y.YYY....
-Nieuwe tekst   :  YYYYYYY._YY___YYY_______Y____.
-Processing rij 23
-Originele tekst:  Y.Y...Y..Y....YYY.YY....Y.....
-Nieuwe tekst   :  Y.__..Y..Y.__.Y_________Y____.
-Processing rij 24
-Originele tekst:  Y.YYY.Y.YYYYYYY.Y.YYYYY.YY....
-Nieuwe tekst   :  Y.__Y_Y.Y__YYYY______YY______.
-Processing rij 25
-Originele tekst:  Y.YYY.Y.YY.Y..Y.Y.Y.Y.YY.Y....
-Nieuwe tekst   :  Y.__Y_Y.Y____._______________.
-Processing rij 26
-Originele tekst:  Y.YYY.Y.YY.YYYYYY.Y.YYYYYY....
-Nieuwe tekst   :  Y.__Y_Y.Y_____YYY______YYY___.
-Processing rij 27
-Originele tekst:  Y.Y...Y.Y.Y....YYYYY.Y.Y......
-Nieuwe tekst   :  ____..Y.Y.____.____Y____.____.
-Processing rij 28
-Originele tekst:  YYYYYYY.YYY.YYY.Y.Y.YY.Y......
-Nieuwe tekst   :  ____YYY______________________.
-Processing rij 29
-Originele tekst:  ..............................
-Nieuwe tekst   :  ..............................
 _ _ Y Y Y Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   7 1 1 1 7 
-_ _ . _ . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ .   1 1 2 3 1 2 1 1 
+_ _ . . . . Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . . _ _ _ .   1 1 2 3 1 2 1 1 
 Y . Y Y Y . Y . _ Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 3 1 1 2 1 3 1 
 Y . Y Y Y . Y . _ Y _ _ Y Y Y _ _ Y _ _ _ _ _ _ Y Y _ _ _ .   1 3 1 2 4 2 1 1 3 1 
-Y . Y Y Y . Y . . _ _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 1 2 3 1 3 1 
-Y . . _ . . Y . Y . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 1 5 1 1 
+Y . Y Y Y . Y . . _ _ _ _ Y _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 1 2 3 1 3 1 
+Y . . . . . Y . Y . _ _ _ _ _ Y Y _ _ _ . _ _ _ _ _ _ _ _ .   1 1 1 1 5 1 1 
 Y Y Y Y Y Y Y . Y . Y . Y . Y . Y . Y . Y . Y Y Y Y Y Y Y .   7 1 1 1 1 1 1 1 7 
-_ _ . _ . _ . _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 2 1 
+_ . . . . . . _ . _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ _ _ .   1 2 1 
 Y Y Y Y Y . Y Y Y Y Y Y Y Y Y . _ Y _ _ Y _ _ _ _ _ _ Y _ .   5 9 2 2 1 1 2 
-. Y Y . Y . . _ Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 1 4 3 1 
+. Y Y . Y . . _ Y Y _ _ _ _ _ _ Y Y Y _ . _ _ _ _ _ _ _ _ .   2 1 3 1 1 4 3 1 
 _ _ . _ . . Y . . Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 
-_ _ _ _ _ _ . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
+_ _ . . _ _ . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
 Y Y Y Y Y . Y . Y Y . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   5 1 2 3 1 1 1 2 
 Y Y Y . _ _ . _ Y Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   3 1 4 1 1 2 3 2 
-_ _ _ _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
+_ _ . _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
 _ _ _ . Y _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 2 1 2 2 1 1 
 _ _ _ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 4 1 1 1 2 
 Y . Y . _ _ . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 1 2 
-Y . _ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 4 1 1 2 1 2 1 
-_ _ _ _ . _ . . Y . _ _ _ _ . _ _ _ _ _ _ _ _ _ Y _ _ _ _ .   1 1 1 1 1 2 1 
+Y . Y Y Y . Y Y Y Y . _ _ _ _ _ _ _ _ _ Y _ _ _ _ _ _ _ _ .   1 3 4 1 1 2 1 2 1 
+_ _ _ _ . _ . . Y . _ _ _ _ . _ _ _ _ _ Y _ . _ Y _ _ _ _ .   1 1 1 1 1 2 1 
 _ _ _ Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y _ . Y Y Y Y Y . Y Y Y .   1 16 5 3 
-_ _ _ _ . _ . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Y _ _ _ _ .   1 1 1 3 1 5 
+_ . . _ . . . . Y . _ _ . _ _ _ Y _ _ _ _ _ . _ Y Y Y Y _ .   1 1 1 3 1 5 
 Y Y Y Y Y Y Y . _ Y Y _ _ _ Y Y Y _ _ _ _ _ _ _ Y _ _ _ _ .   7 3 5 2 1 3 
 Y . _ _ . . Y . . Y . _ _ . Y _ _ _ _ _ _ _ _ _ Y _ _ _ _ .   1 1 1 1 3 2 1 
-Y . _ _ Y _ Y . Y _ _ Y Y Y Y _ _ _ _ _ _ Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
+Y . Y Y Y . Y . Y Y Y Y Y Y Y . _ _ _ _ _ Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
 Y . _ _ Y _ Y . Y _ _ _ _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 2 1 1 1 1 1 2 1 
 Y . _ _ Y _ Y . Y _ _ _ _ _ Y Y Y _ _ _ _ _ _ Y Y Y _ _ _ .   1 3 1 2 6 1 6 
-_ _ _ _ . . Y . Y . _ _ _ _ . _ _ _ _ Y _ _ _ _ . _ _ _ _ .   1 1 1 1 1 5 1 1 
-_ _ _ _ Y Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   7 3 3 1 1 2 1 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   0
-
-7 1 1 1 1 1 7 2 1 4 1 3 1 1 2 1 1 1 4 1 1 1 7 1 1 1 1 1 7 0 
-1 1 3 3 3 1 1 4 1 7 3 2 2 3 4 1 1 3 2 1 1 1 1 1 3 3 3 1 2   
-4 3 1 1 1 1 1 1 2 1 1 2 3 2 2 1 2 2 3 1 1 2 1 3 1 1 1 1 1   
-4 3 2 1 2 3 1   2 1 1 1 1 3 4 1 2 1 2 1 1 1 1 2 1 1 1 1 1   
-7 1 2 1 2 1 1   3 5 1 2 1 1 1 3 1 1 1 1 1 1 1 5 1 2 1 3 2   
-  1 4 1 2 1 1   7 1 1 3 2 1 5 3 2 1 2 1 112 1 1 1 1 3 3 1   
-  1 1 1 1 1 1   5   1   1 3 1 2 1 1 2 2     1 2 1 1 3 1     
-    3 1 1 1 1       1   1 1   1 4 2   2     3   8 2 3 2     
-    1 3 1   7       1   2 1     3 1   2         1 3 1       
-      1 3           1     1       1                         
-        1                         1                         
-                                                            
-                                                            
-                                                            
-Processing kolom 0
-Originele tekst:  YYYYYYY.Y.YYYY.YYYY.YYYYYYY...
-Nieuwe tekst   :  __YYYYY_Y.__YY___YY___YYYYY__.
-Processing kolom 1
-Originele tekst:  Y.Y.YYY.YYY.Y.Y.......Y.......
-Nieuwe tekst   :  ___.__Y_Y____________.Y.._.__.
-Processing kolom 2
-Originele tekst:  Y.YYY.Y.YY.YY.YYYY.Y.YYY.Y....
-Nieuwe tekst   :  Y.YYY.Y.YY.______Y____Y______.
-Processing kolom 3
-Originele tekst:  Y.YYY.Y.Y.Y.Y.Y.Y.YYY.Y.......
-Nieuwe tekst   :  _._Y_.Y_Y.__________Y_Y______.
-Processing kolom 4
-Originele tekst:  Y.YYY.Y.YY.YY.YY.Y..Y.Y.YYY.Y.
-Nieuwe tekst   :  Y.YYY.Y.YY._Y__Y___.Y.Y.YYY.Y.
-Processing kolom 5
-Originele tekst:  Y.Y...Y..YYY.Y.Y....Y.Y.......
-Nieuwe tekst   :  ___._.Y..___________Y.Y._____.
-Processing kolom 6
-Originele tekst:  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Nieuwe tekst   :  YYYYYYY.Y.Y.Y.Y.Y.Y.Y.YYYYYYY.
-Processing kolom 7
-Originele tekst:  YY.....YYYY.........Y.........
-Nieuwe tekst   :  ___.__._Y___________Y_._._.__.
-Processing kolom 8
-Originele tekst:  Y.Y..YY.YY.YYY.YYYYYYY.YYYYY..
-Nieuwe tekst   :  ____.YY.YY._YY__YYYYYY__YYYY_.
-Processing kolom 9
-Originele tekst:  YYYY...YYYYYYY.Y.Y.YYYYY.Y....
-Nieuwe tekst   :  __YY__._YYYYYY______Y_YY_____.
-Processing kolom 10
-Originele tekst:  Y.YYY.Y.Y.Y.Y.Y.Y...Y.Y.......
-Nieuwe tekst   :  ______Y_Y__________.Y.Y._____.
-Processing kolom 11
-Originele tekst:  YYY.YY.YY.Y........YY.YYY.....
-Nieuwe tekst   :  ______._Y___________Y___Y____.
-Processing kolom 12
-Originele tekst:  Y.YY..YYY.Y.Y.YY.Y..Y..YY.....
-Nieuwe tekst   :  ___Y__Y_Y___________Y.__Y____.
-Processing kolom 13
-Originele tekst:  Y.YYY..YY.YYY.Y.Y.YYY.Y.Y.Y...
-Nieuwe tekst   :  ___YY_._Y___Y_______Y__.Y.___.
-Processing kolom 14
-Originele tekst:  YY.YYYY.YY.YYYY.Y...YYYYY.Y...
-Nieuwe tekst   :  ___Y__Y_Y__________.Y_YYY_Y._.
-Processing kolom 15
-Originele tekst:  Y.Y.Y..Y.YYY......YYY.YY..Y...
-Nieuwe tekst   :  ______._.___________Y_Y_._Y._.
-Processing kolom 16
-Originele tekst:  Y.Y..YY.YY.Y.YY.Y..YYYY.YYY...
-Nieuwe tekst   :  ______Y_____________YYY___Y__.
-Processing kolom 17
-Originele tekst:  Y.YYY..YY.Y.Y.Y.Y..YY.Y.Y.Y...
-Nieuwe tekst   :  ___YY_._Y___________Y________.
-Processing kolom 18
-Originele tekst:  YYYY.YY.YYY.YY.Y.YY.YY........
-Nieuwe tekst   :  ______Y______________________.
-Processing kolom 19
-Originele tekst:  Y.Y.Y..Y.Y.Y.YY.YY.YY.........
-Nieuwe tekst   :  ______.______________________.
-Processing kolom 20
-Originele tekst:  Y.Y.Y.Y.Y.YYYYYYYYYYY.........
-Nieuwe tekst   :  _____.Y.Y.________YYY________.
-Processing kolom 21
-Originele tekst:  Y.Y.YY.Y............Y..YY.....
-Nieuwe tekst   :  ______._____________Y.__Y____.
-Processing kolom 22
-Originele tekst:  YYYYYYY.Y.Y.Y.Y.Y...Y.YYY.....
-Nieuwe tekst   :  ______Y____________.Y.__Y____.
-Processing kolom 23
-Originele tekst:  Y.Y.YYY.YY.YYYYY....Y....YY...
-Nieuwe tekst   :  ______Y_____________Y_____Y_..
-Processing kolom 24
-Originele tekst:  Y.YYY.Y.Y.Y.Y.Y.YYYYYYYY..Y...
-Nieuwe tekst   :  _._Y__Y____________YYYYY__Y._.
-Processing kolom 25
-Originele tekst:  Y.YYY.Y.Y.YY.Y.Y.YY.....YYY...
-Nieuwe tekst   :  _._Y__Y___________________Y__.
-Processing kolom 26
-Originele tekst:  Y.YYY.Y.Y.Y.YYY.YYY.YYY.Y.....
-Nieuwe tekst   :  ______Y_____________Y________.
-Processing kolom 27
-Originele tekst:  Y.Y.Y.Y.YYY.YYY.Y..YY.........
-Nieuwe tekst   :  _____.Y.Y___________Y________.
-Processing kolom 28
-Originele tekst:  YYYYYYY.YY.Y.Y.YY.Y...........
-Nieuwe tekst   :  ______Y______________________.
-Processing kolom 29
-Originele tekst:  ..............................
-Nieuwe tekst   :  ..............................
-_ _ Y _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   7 1 1 1 7 
-_ _ . . . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . . _ _ _ .   1 1 2 3 1 2 1 1 
-Y _ Y _ Y _ Y _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 3 1 1 2 1 3 1 
-Y . Y Y Y . Y . _ Y _ _ Y Y Y _ _ Y _ _ _ _ _ _ Y Y _ _ _ .   1 3 1 2 4 2 1 1 3 1 
-Y _ Y _ Y _ Y _ . _ _ _ _ Y _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 1 2 3 1 3 1 
-Y _ . . . . Y _ Y _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ . _ .   1 1 1 1 5 1 1 
-Y Y Y Y Y Y Y . Y . Y . Y . Y . Y . Y . Y . Y Y Y Y Y Y Y .   7 1 1 1 1 1 1 1 7 
-_ _ . _ . . . _ . _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ . _ .   1 2 1 
-Y Y Y Y Y . Y Y Y Y Y Y Y Y Y . _ Y _ _ Y _ _ _ _ _ _ Y _ .   5 9 2 2 1 1 2 
-. _ Y . Y _ . _ Y Y _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ _ _ .   2 1 3 1 1 4 3 1 
-_ _ . _ . _ Y _ . Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 
-_ _ _ _ _ _ . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
-Y _ _ _ Y _ Y _ Y Y _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   5 1 2 3 1 1 1 2 
-Y _ _ _ _ _ . _ Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   3 1 4 1 1 2 3 2 
-_ _ _ _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
-_ _ _ _ Y _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 2 1 2 2 1 1 
-_ _ _ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 4 1 1 1 2 
-Y _ Y _ _ _ . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 1 2 
-Y _ _ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ Y _ _ _ _ _ _ _ _ .   1 3 4 1 1 2 1 2 1 
-_ _ _ _ . _ . _ Y _ . _ _ _ . _ _ _ _ _ Y _ . _ Y _ _ _ _ .   1 1 1 1 1 2 1 
-_ _ _ Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y _ _ Y Y Y Y Y _ Y Y _ .   1 16 5 3 
-_ . _ _ . . . _ Y _ . _ . _ _ _ Y _ _ _ _ . . _ Y _ _ _ _ .   1 1 1 3 1 5 
-Y Y Y Y Y Y Y . _ Y Y _ _ _ Y Y Y _ _ _ _ _ _ _ Y _ _ _ _ .   7 3 5 2 1 3 
-Y . _ _ . . Y _ _ Y . _ _ . Y _ _ _ _ _ _ _ _ _ Y _ _ _ _ .   1 1 1 1 3 2 1 
-Y . _ _ Y _ Y . Y _ _ Y Y Y Y . _ _ _ _ _ Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
-Y _ _ _ Y _ Y _ Y _ _ _ _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 2 1 1 1 1 1 2 1 
-Y . _ _ Y _ Y . Y _ _ _ _ _ Y Y Y _ _ _ _ _ _ Y Y Y _ _ _ .   1 3 1 2 6 1 6 
-_ _ _ _ . _ Y _ Y _ _ _ _ _ . . _ _ _ _ _ _ _ _ . _ _ _ _ .   1 1 1 1 1 5 1 1 
-_ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   0
-
-7 1 1 1 1 1 7 2 1 4 1 3 1 1 2 1 1 1 4 1 1 1 7 1 1 1 1 1 7 0 
-1 1 3 3 3 1 1 4 1 7 3 2 2 3 4 1 1 3 2 1 1 1 1 1 3 3 3 1 2   
-4 3 1 1 1 1 1 1 2 1 1 2 3 2 2 1 2 2 3 1 1 2 1 3 1 1 1 1 1   
-4 3 2 1 2 3 1   2 1 1 1 1 3 4 1 2 1 2 1 1 1 1 2 1 1 1 1 1   
-7 1 2 1 2 1 1   3 5 1 2 1 1 1 3 1 1 1 1 1 1 1 5 1 2 1 3 2   
-  1 4 1 2 1 1   7 1 1 3 2 1 5 3 2 1 2 1 112 1 1 1 1 3 3 1   
-  1 1 1 1 1 1   5   1   1 3 1 2 1 1 2 2     1 2 1 1 3 1     
-    3 1 1 1 1       1   1 1   1 4 2   2     3   8 2 3 2     
-    1 3 1   7       1   2 1     3 1   2         1 3 1       
-      1 3           1     1       1                         
-        1                         1                         
-                                                            
-                                                            
-                                                            
-_ _ Y _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   7 1 1 1 7 
-_ _ . . . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . . _ _ _ .   1 1 2 3 1 2 1 1 
-Y _ Y _ Y _ Y _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 3 1 1 2 1 3 1 
-Y . Y Y Y . Y . _ Y _ _ Y Y Y _ _ Y _ _ _ _ _ _ Y Y _ _ _ .   1 3 1 2 4 2 1 1 3 1 
-Y _ Y _ Y _ Y _ . _ _ _ _ Y _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 1 2 3 1 3 1 
-Y _ . . . . Y _ Y _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ . _ .   1 1 1 1 5 1 1 
-Y Y Y Y Y Y Y . Y . Y . Y . Y . Y . Y . Y . Y Y Y Y Y Y Y .   7 1 1 1 1 1 1 1 7 
-_ _ . _ . . . _ . _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ . _ .   1 2 1 
-Y Y Y Y Y . Y Y Y Y Y Y Y Y Y . _ Y _ _ Y _ _ _ _ _ _ Y _ .   5 9 2 2 1 1 2 
-. _ Y . Y _ . _ Y Y _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ _ _ _ .   2 1 3 1 1 4 3 1 
-_ _ . _ . _ Y _ . Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 
-_ _ _ _ _ _ . _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 1 1 2 1 2 1 
-Y _ _ _ Y _ Y _ Y Y _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   5 1 2 3 1 1 1 2 
-Y _ _ _ _ _ . _ Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   3 1 4 1 1 2 3 2 
-_ _ _ _ _ _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 2 2 6 1 3 
-_ _ _ _ Y _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 2 1 2 2 1 1 
-_ _ _ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   2 1 3 1 4 1 1 1 2 
-Y _ Y _ _ _ . _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 1 1 2 1 1 1 2 
-Y _ _ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ Y _ _ _ _ _ _ _ _ .   1 3 4 1 1 2 1 2 1 
-_ _ _ _ . _ . _ Y _ . _ _ _ . _ _ _ _ _ Y _ . _ Y _ _ _ _ .   1 1 1 1 1 2 1 
-_ _ _ Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y _ _ Y Y Y Y Y _ Y Y _ .   1 16 5 3 
-_ . _ _ . . . _ Y _ . _ . _ _ _ Y _ _ _ _ . . _ Y _ _ _ _ .   1 1 1 3 1 5 
-Y Y Y Y Y Y Y . _ Y Y _ _ _ Y Y Y _ _ _ _ _ _ _ Y _ _ _ _ .   7 3 5 2 1 3 
-Y . _ _ . . Y _ _ Y . _ _ . Y _ _ _ _ _ _ _ _ _ Y _ _ _ _ .   1 1 1 1 3 2 1 
-Y . _ _ Y _ Y . Y _ _ Y Y Y Y . _ _ _ _ _ Y Y _ _ _ _ _ _ .   1 3 1 7 1 5 2 
-Y _ _ _ Y _ Y _ Y _ _ _ _ . _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ .   1 3 1 2 1 1 1 1 1 2 1 
-Y . _ _ Y _ Y . Y _ _ _ _ _ Y Y Y _ _ _ _ _ _ Y Y Y _ _ _ .   1 3 1 2 6 1 6 
-_ _ _ _ . _ Y _ Y _ _ _ _ _ . . _ _ _ _ _ _ _ _ . _ _ _ _ .   1 1 1 1 1 5 1 1 
-_ _ _ _ Y _ Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1 
+_ _ _ _ . . Y . Y . _ _ _ _ . . _ _ _ Y Y _ _ _ . _ _ _ _ .   1 1 1 1 1 5 1 1 
+_ _ _ _ Y Y Y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ . _ _ _ _ _ .   7 3 3 1 1 2 1 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   0
 
 7 1 1 1 1 1 7 2 1 4 1 3 1 1 2 1 1 1 4 1 1 1 7 1 1 1 1 1 7 0 

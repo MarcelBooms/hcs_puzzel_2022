@@ -128,23 +128,25 @@ def bouw_alle_rijen():
 # de kolommen tabel die op kolom 1 van rij rij_nr een '.' hebben staan,
 # verwijderd worden. Dit verkleint de dataset van mogelijke oplossingen  
 def verwijder_kolommen(rij_nr):
-  print("Processing rij",rij_nr)
+  # print("Processing rij",rij_nr)
   tekst=list(tabel2_x[rij_nr][0])
-  print("Originele tekst: ",''.join(tekst))
-  # Als de set meerder oplossingen heeft dan wordt er gekeken welke posities
+  # print("Originele tekst: ",''.join(tekst))
+  # Als de set meerderde oplossingen heeft dan wordt er gekeken welke posities
   # dezelfde waarden hebben 'Y' of '.' voor alle oplossingen.
   # Bij een verschil wordt het filter een '?' en genegeerd bij vergelijkingen.
   for n in range(len(tabel2_x[rij_nr])):
-    pass
     for m in range(veldgrootte):
       if tekst[m] != '?' and tekst[m] != tabel2_x[rij_nr][n][m]:
         tekst[m]='?'
-  print("Nieuwe tekst   : ",''.join(tekst))
+  # print("Nieuwe tekst   : ",''.join(tekst))
+  return verwijder_kolom(tekst, rij_nr)
 
+def verwijder_kolom(filter, rij_nr):
+  pass
   verwijderd=False
   for n in range(veldgrootte):
     # print("Processing rij",rij_nr,"kolom",n)
-    c=tekst[n]
+    c=filter[n]
     nieuwe_tabel=[]
     # print("len",len(tabel2_y[n]), tabel2_y[n])
     for optie in range(len(tabel2_y[n])):
@@ -167,33 +169,15 @@ def verwijder_kolommen(rij_nr):
   return verwijderd
 
 def verwijder_rijen(kolom_nr):
-  print("Processing kolom",kolom_nr)
+  # print("Processing kolom",kolom_nr)
   tekst=list(tabel2_y[kolom_nr][0])
-  print("Originele tekst: ",tekst)
+  # print("Originele tekst: ",tekst)
   for n in range(len(tabel2_y[kolom_nr])):
     pass
     for m in range(veldgrootte):
       if tekst[m] != '?' and tekst[m] != tabel2_y[kolom_nr][n][m]:
         tekst[m]='?'
-  print("Nieuw tekst    : ",''.join(tekst))
-      
-  verwijderd=False
-  for n in range(veldgrootte):
-    c=tekst[n]
-    nieuwe_tabel=[]
-    for m in range(len(tabel2_x[n])):
-      if c == '?' or tabel2_x[n][m][kolom_nr] == c or c == '?':
-        nieuwe_tabel.append(tabel2_x[n][m])
-      else:
-        # print("Optie ",m," wordt verwijderd")
-        verwijderd=True
-    # print("Clearing table. Table was",len(tabel2_x[n]))
-    tabel2_x[n].clear    
-    if len(nieuwe_tabel) == 0:
-      print("Wat gaat hier fout?")
-      raise Exception('Wat gaat hier fout?')
-    tabel2_x[n]=nieuwe_tabel
-    # print("Adding new table. Table is",len(tabel2_x[n]))
+  # print("Nieuw tekst    : ",''.join(tekst))
   return verwijder_rij(tekst, kolom_nr)
 
 def verwijder_rij(filter, kolom_nr):
@@ -231,21 +215,17 @@ def controleren():
     print("Run ",run)
     for n in range(veldgrootte):
       print("Rij " , n , " heeft ",len(tabel2_x[n]),"mogelijkheden")
-      if len(tabel2_x[n]) <= 100:
-        # if not n in kolommen:
-        print()
+      if len(tabel2_x[n]) <= 1000:
         print("Rij ",n," heeft ",len(tabel2_x[n])," oplossing(en). Verwijder andere mogelijkheden uit de kolommen tabel")
         verwijderd = verwijder_kolommen(n)
-        print("Verwijder is",verwijderd)
         kolommen.append(n)
   
     for n in range(veldgrootte):
       print("Kolom " , n , " heeft ",len(tabel2_y[n]),"mogelijkheden")    
-      if len(tabel2_y[n]) <= 100:
+      if len(tabel2_y[n]) <= 1000:
         # if not n in rijen:
         print("Kolom ",n," heeft ",len(tabel2_y[n])," oplossing(en). Verwijder andere mogelijkheden uit de rijen tabel")
         verwijderd = verwijder_rijen(n)
-        print("Verwijder is",verwijderd)
         rijen.append(n)
 
 def vul_tabel():
@@ -260,20 +240,7 @@ def vul_tabel():
     # print("Nieuwe tekst   : ",''.join(tekst))
     for kolom_nr in range(veldgrootte):
       tabel[rij_nr][kolom_nr]=tekst[kolom_nr]    
-  # print_tabel()
 
-  # for kolom_nr in range(veldgrootte):
-  #   print("Processing kolom",kolom_nr)
-  #   tekst=list(tabel2_y[kolom_nr][0])
-  #   print("Originele tekst: ",''.join(tekst))
-  #   for n in range(len(tabel2_y[kolom_nr])):
-  #     for m in range(veldgrootte):
-  #       if tekst[m] != '_' and tekst[m] != tabel2_y[kolom_nr][n][m]:
-  #         tekst[m]='_'
-  #   print("Nieuwe tekst   : ",''.join(tekst))
-  #   for rij_nr in range(veldgrootte):
-  #     tabel[rij_nr][kolom_nr]=tekst[rij_nr]    
-  # print_tabel()
       
 def main():
   lees_rij()
