@@ -1,5 +1,3 @@
-import timeit
-
 veldgrootte=30
 maxaantalgetallen=15
 
